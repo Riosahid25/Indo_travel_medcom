@@ -68,9 +68,8 @@
           </div>
         </nav>
       </section>
-
       <section class="hero wrapping">
-        <video playsinline="playsinline" autoplay="autoplay" loop="loop">
+        <video id="myVideo" autoplay loop="loop">
           <source src="./assets/video/The_Majestic_Lake_Toba _ Trailer.mp4" type="video/mp4" />
         </video>
         <div class="d-flex justify-content-between align-items-center hero-text">
@@ -1204,6 +1203,7 @@
       <!-- section card destinasi end -->
 
       <!-- section footer star -->
+      <button id="clickme" onclick="playVid()">TESTING</button>
       <section class="footer container-fluid py-2 pb-5 px-lg-5">
         <div class="row row-cols-lg-3 row-cols-md-1 gap-3">
           <div class="col">
@@ -1253,6 +1253,13 @@
     -->
 
     <!-- animate on scroll AOS file js -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        document.querySelector("#myVideo").play();
+      });
+    </script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- file libraries jquery -->
