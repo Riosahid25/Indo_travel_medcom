@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- icons file css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- main css file -->
+    <link rel="stylesheet" href="./src/main.css" />
+    <link rel="stylesheet" href="./src/tentang.css" />
+    <link rel="stylesheet" href="./src/bentuk.css" />
+    <link rel="stylesheet" href="./src/tahukah.css" />
+    <link rel="stylesheet" href="./src/howtogo.css" />
+
+    <!-- Animated -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>Medcom | Indonesia Travel</title>
+  </head>
+  <body>
+    <!-- wrapping of Danau Toba star -->
+    <div class="container-wrapping">
+      <section class="navbarToba">
+        <nav class="navbar navbar-dark navbar-expand-lg py-md-3 bg-dark fixed-top px-lg-2">
+          <div class="container-fluid">
+            <a class="navbar-brand logo page-scroll" href="#home"><img src="./assets/img_logo/wonderful-indonesia-logo2.png" alt="wonderful-indonesia-logo-seeklogo.com" title="wonderful-indonesia-logo-seeklogo.com" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-md-1 gap-lg-3">
+                <li class="nav-item d-flex align-items-center">
+                  <img src="./assets/img_icons/clarity_lightbulb-solid.svg" alt="" class="iconnav" />
+                  <a class="nav-link active page-scroll" aria-current="page" href="#home">Overview</a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                  <img src="./assets/img_icons/maki_landmark.png" alt="" class="iconnav" />
+                  <a class="nav-link page-scroll" href="#tentang_borobudur">Tentang Borobudur</a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                  <img src="./assets/img_icons/Vector.png" alt="" class="iconnav" />
+                  <a class="nav-link page-scroll" href="#tahukah_kamu">Tahukah Kamu</a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                  <img src="./assets/img_icons/fa-solid_map-marker-alt.svg" alt="" class="iconnav" />
+                  <a class="nav-link page-scroll" href="#tempat_wisata">Tempat Wisata</a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                  <img src="./assets/img_icons/healthicons_small-plane.svg" alt="" class="iconnav" />
+                  <a class="nav-link page-scroll" href="#how_to_get">How To Get There</a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                  <img src="../medcom_indotravel_labuanbajo/assets/img_icons/fluent_food-24-filled.svg" alt="" class="iconnav" />
+                  <a class="nav-link page-scroll" href="#kuliner">Kuliner</a>
+                </li>
+
+                <!-- <li class="nav-item d-flex align-items-center">
+                  <img src="./assets/img_icons/fluent_food-24-filled.svg" alt="" class="iconnav" />
+                  <a class="nav-link" href="#">Eta Mangan!</a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                  <img src="./assets/img_icons/mdi_bag-personal.svg" alt="" class="iconnav" />
+                  <a class="nav-link" href="#">Akomodasi</a>
+                </li> -->
+              </ul>
+              <form class="d-flex">
+                <a href="https://www.airasia.com/id/id" class="btn btnvisit" target="_blank" role="button"><img src="../medcom_indotravel_danautoba/assets/img_icons/airasiacom_monogram.png" alt="" /></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <!-- banner video -->
+      <section class="hero wrapping">
+        <video playsinline="playsinline" autoplay="autoplay" loop="loop">
+          <source src="./assets/video/The Gems of Borobudur Temple2.mp4" type="video/mp4" />
+        </video>
+        <div id="banner-video" class="d-flex align-items-center hero-text">
+          <div class="d-flex flex-column iconhero">
+            <img src="./assets/img_icons/fb.svg" alt="" />
+            <img src="./assets/img_icons/tweet.svg" alt="" />
+            <img src="./assets/img_icons/wa.svg" alt="" />
+            <img src="./assets/img_icons/tele.svg" alt="" />
+          </div>
+          <div class="d-flex flex-column text-center">
+            <p class="h1 hTittletext">Kemegahan dari Jawa Tengah</p>
+            <p class="hMetatext">Dikenal sebagai salah satu bukti sejarah panjang perkembangan agama Buddha di Indonesia, Candi Borobudur Semua itu di Danau Toba</p>
+          </div>
+          <div class="d-flex btnvideo">
+            <a class="btn" href="#" role="button">Lihat Video</a>
+          </div>
+        </div>
+      </section>
+      <!-- end of banner -->
+
+      <!-- section tentang borobudur -->
+      <section class="tentang_borobudur mt-lg-4 py-lg-3" id="tentang_borobudur">
+        <p class="titleTentangBorobudur py-4" data-aos="fade-up" data-aos-duration="1000">Mengenal Lebih Dekat dengan Candi Buddha Terbesar di Dunia</p>
+        <img class="borobudur_hero" src="assets/img_content/section_intro/borobudur1.png" alt="" />
+        <div class="container tentang_caption py-4" data-aos="fade-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+          <p>Sejarah bermula ketika awal pembangunan candi dimulai sekitar abad ke-8 dan abad ke-9 pada 800 Masehi silam. Waktu itu, pembangunan awal ini dilakukan ketika masa pemerintahan dari Dinasti Syailendra.</p>
+          <p>
+            Pembangunan Borobudur sendiri diprediksi membutuhkan waktu yang cukup lama, yakni hingga beberapa ratus tahun sampai benar-benar selesai. Hal ini dilakukan pada sekitar tahun 825, yakni pada masa pemerintahan Raja Samaratungga.
+          </p>
+          <p>
+            Namun sayangnya, tidak ada bukti catatan sejarah yang bisa menjelaskan secara detail siapa yang membangun Candi Borobudur ini. Hal ini dikarenakan pada saat itu agama Hindu dan Budha berkembang secara bersamaan di Pulau Jawa.
+            Pada akhirnya, candi ini pun ditetapkan sebagai Situs Warisan Dunia pada tahun 1991 oleh UNESCO.
+          </p>
+        </div>
+      </section>
+      <!-- end of section tentang borobudur -->
+
+      <!-- section bentuk candi borobudur -->
+      <section class="container-fluid bentuk_borobudur">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-sm-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                  <img class="img_bentuk p-2" src="assets/img_content/section_bentuk/Rectangle 78.png" alt="" />
+                  <img class="img_bentuk p-2" src="assets/img_content/section_bentuk/Rectangle 79.png" alt="" />
+                </div>
+
+                <div class="col-sm-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                  <img class="img_bentuk p-2" src="assets/img_content/section_bentuk/Rectangle 78-1.png" alt="" />
+                  <img class="img_bentuk p-2" src="assets/img_content/section_bentuk/Rectangle 79-1.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+              <img class="img_bentuk_sendiri w-100 p-2" src="assets/img_content/section_bentuk/Rectangle 80.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <p class="titleBentuk text-white" data-aos="fade-up" data-aos-duration="1000">Bentuk Candi Borobudur</p>
+        <div class="container caption_bentuk pb-5">
+          <p data-aos="fade-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+            Borobudur sendiri memiliki bentuk bangunan layaknya punden berundak, yang mana semakin keatas maka akan semakin mengecil. Selain itu, terdapat pula 4 buah tangga yang tersebar di setiap arah mata angin. Candi Borobudur memiliki
+            panjang sekitar 121,66 meter dan lebar 121,38 meter serta tinggu bangunan 35,40 meter. Menurut filsafat Budha sendiri, struktur tingkatan yang ada pada bentuk candi menyiratkan alam semesta akan roda kehidupan manusia. Dalam
+            Candi Borobudur ini terdapat tiga tingkatan yakni kamadhatu yang merupakan bagian terbawah dari struktur candi. Kamadhatu menggambarkan perilaku manusia yang mana masih sangat terikat dengan nafsu duniawi.
+          </p>
+          <p data-aos="fade-in" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+            Pada bagian tengah candi yang sering disebut dengan rupadhatu ini digunakan untuk menjelaskan perilaku manusia yang sudah mulai meninggalkan urusan duniawinya, namun masih terikat dengan dunia myatanya Sementara itu, bagian atas
+            candi disebut arupadhatu yang mana menggambarkan unsur tak berwujud atau dimana manusia sudah meninggalkan semua urusan duniawinya..
+          </p>
+        </div>
+      </section>
+      <!-- end of section bentuk -->
+
+      <!-- section tahukah kamu -->
+      <section class="container-fluid tahukah-kamu py-5" id="tahukah_kamu">
+        <div class="container justify-content-center">
+          <p class="titleTahukah text-white" data-aos="fade-up" data-aos-duration="1000">Tahukah Kamu</p>
+          <div class="row gy-3">
+            <div class="col-lg-4" data-aos="flip-left" data-aos-offset="100" data-aos-duration="1000">
+              <div class="card m-1 h-100">
+                <div class="card-body">
+                  <img class="icon_tahukah p-1" src="assets/img_content/section_tahukah/Asset 1 1.png" alt="" />
+                  <h5 class="card-title">Candi dengan Relief Terbanyak di Dunia</h5>
+                  <p class="card-text">Tahukah kamu, Candi Borobudur memiliki 2672 panel relief dan 504 arca Budha. Karena itu, Borobudur dinobatkan sebagai Candi dengan relief terbanyak di dunia</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="flip-left" data-aos-offset="200" data-aos-duration="1000">
+              <div class="card m-1 h-100">
+                <div class="card-body">
+                  <img class="icon_tahukah p-1" src="assets/img_content/section_tahukah/emojione_hand-with-fingers-splayed.png" alt="" />
+                  <h5 class="card-title">Mitos Menyentuh Wajah Arca Maka Keinginan Akan Terwujud</h5>
+                  <p class="card-text">Tahukah kamu terdapat mitos, jika kamu dapat menyentuk wajah arca di dalam tempurung maka keinginan kamu akan terwujud. Karena mitos tersebut, banyak terjadi kasus pencurian arca di Candi Borobodur</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="flip-left" data-aos-offset="300" data-aos-duration="1000">
+              <div class="card m-1 h-100">
+                <div class="card-body">
+                  <img class="icon_tahukah p-1" src="assets/img_content/section_tahukah/fxemoji_bomb.png" alt="" />
+                  <h5 class="card-title">Pernah Dibom</h5>
+                  <p class="card-text">Tahukah kamu, pada tanggal 21 Januari 1985, Candi Borobudur dibom pemboman ini dikaitkan dengan pemahaman radikal yang mana 9 dari 13 bom tersebut meledak dan menghancurkan banyak balok stupa.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-3 gy-3" data-aos="flip-left" data-aos-offset="100" data-aos-duration="1000">
+            <div class="col-lg-4">
+              <div class="card m-1 h-100">
+                <div class="card-body">
+                  <img class="icon_tahukah p-1" src="assets/img_content/section_tahukah/twemoji_wrapped-gift.png" alt="" />
+                  <h5 class="card-title">Pemerintah Hindia Belanda Memberikan Arca Gratis</h5>
+                  <p class="card-text">Tahukah kamu, Pemerintah Hindia Belanda pernah memberikan arca Candi Borobudur secara gratis kepada Thailand sebagai buah tangan untuk Raja Chulalongkorn II</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="flip-left" data-aos-offset="200" data-aos-duration="1000">
+              <div class="card m-1 h-100">
+                <div class="card-body">
+                  <img class="icon_tahukah p-1" src="assets/img_content/section_tahukah/flat-color-icons_shop.png" alt="" />
+                  <h5 class="card-title">Pemerintah Hindia Belanda Pernah Membuat Warung di Candi</h5>
+                  <p class="card-text">Tahukah kamu, saat pertama kali ditemukan Pemerintah Hindia Belanda pernah mendirikan sebuah warung di puncak stupa Candi Borobudur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="flip-left" data-aos-offset="200" data-aos-duration="1000">
+              <div class="card m-1 h-100">
+                <div class="card-body">
+                  <img class="icon_tahukah p-1" src="assets/img_content/section_tahukah/megaphone.png" alt="" />
+                  <h5 class="card-title">Ada apa lagi ya ?</h5>
+                  <p class="card-text">Klik <a href="https://www.medcom.id/" target="_blank" class="text-white">Medcom.id</a> untuk Info Selanjutnya..</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4"></div>
+          </div>
+        </div>
+      </section>
+      <!-- section tahukah kamu -->
+
+      <!-- section mapsToba star -->
+      <section class="mapsToba" id="tempat_wisata">
+        <img src="./assets/img_content/section maps/borobudur.png" alt="" />
+      </section>
+      <!-- section mapsToba end -->
+
+      <!-- How to get there -->
+      <section class="howtget container-fluid" id="how_to_get">
+        <div class="row text-center mx-lg-5">
+          <div class="col-md-12">
+            <p class="titleHTG my-5" data-aos="fade-up" data-aos-duration="1000">How To Get There</p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 d-flex justify-content-center pt-4 pb-3">
+              <div class="tabmenu d-flex align-items-center justify-content-center p-1">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                  <!-- bandara int adisucipto -->
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-adisucipto-tab" data-bs-toggle="pill" data-bs-target="#pills-adisucipto" type="button" role="tab" aria-controls="pills-adisucipto" aria-selected="true">
+                      <i class="bi bi-airplane-engines"></i> Bandara Internasional Adisucipto
+                    </button>
+                  </li>
+
+                  <!-- bandara yogya -->
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-yogya-tab" data-bs-toggle="pill" data-bs-target="#pills-yogya" type="button" role="tab" aria-controls="pills-yogya" aria-selected="true">
+                      <i class="bi bi-airplane-engines"></i> Bandara Yogya International Airport
+                    </button>
+                  </li>
+
+                  <!-- stasiun yogyakarta -->
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-st_yogya-tab" data-bs-toggle="pill" data-bs-target="#pills-st_yogya" type="button" role="tab" aria-controls="pills-st_yogya" aria-selected="false">
+                      <i class="bi bi-airplane-engines"></i> Stasiun Yogyakarta
+                    </button>
+                  </li>
+
+                  <!-- opsi lain -->
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-opsi-tab" data-bs-toggle="pill" data-bs-target="#pills-opsi" type="button" role="tab" aria-controls="pills-opsi" aria-selected="false"><i class="bi bi-car-front"></i> Opsi Lain</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="pills-tabContent">
+            <!-- konten adisucipto -->
+            <div class="tab-pane fade show active" id="pills-adisucipto" role="tabpanel" aria-labelledby="pills-adisucipto-tab" tabindex="0">
+              <div class="row sewamobil">
+                <div class="col-md col-sm">
+                  <div class="row d-flex flex-column">
+                    <div class="col d-flex">
+                      <div class="col-2 px-4 py-4">
+                        <div class="rounded-circle"></div>
+                        <div class="line-vertical"></div>
+                        <div class="rounded-circle"></div>
+                      </div>
+                      <div id="adisucipto" class="col-10 px-3 py-4 text-start">
+                        <p>Bandara Internasional Adisucipto</p>
+                        <p>Bus</p>
+                        <p>Jam Operasional : 07.00 - 21.00</p>
+                        <p><a href="" class="btn">Pesan di sini</a></p>
+                        <p class="text-white">Magelang (Pertigaan Palbapang)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row d-flex flex-column">
+                    <div class="col d-flex">
+                      <div class="col-2 px-4 py-4">
+                        <div class="rounded-circle"></div>
+                        <div class="line-vertical"></div>
+                        <div class="rounded-circle"></div>
+                      </div>
+                      <div class="col-10 py-4 text-start">
+                        <p>Magelang (Pertigaan Palbapang)</p>
+                        <p class="mt-0">Shuttle Bus</p>
+                        <p>Jam Operasional : 07.00 - 21.00</p>
+                        <p><a href="" class="btn">Pesan di sini</a></p>
+                        <p class="text-white borobudur-text">Candi Borobudur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md col-sm">
+                  <div class="col-auto">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d253035.33597644232!2d110.03153909251046!3d-7.717750014105391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x2e7a50a9f995d21b%3A0xf027a77c64c3df0!2sAdisucipto%20International%20Airport%2C%20Jl.%20Raya%20Solo%20KM.9%2C%20Maguwoharjo%2C%20Depok%2C%20Sleman%20Regency%2C%20Special%20Region%20of%20Yogyakarta%2055282!3m2!1d-7.7876838!2d110.43176129999999!4m5!1s0x2e7a8cf009a7d697%3A0xdd34334744dc3cb!2sBorobudur%20Temple%2C%20Jl.%20Badrawati%2C%20Kw.%20Candi%20Borobudur%2C%20Borobudur%2C%20Magelang%20Regency%2C%20Central%20Java!3m2!1d-7.607873799999999!2d110.2037513!5e0!3m2!1sen!2sid!4v1678870867664!5m2!1sen!2sid"
+                      width="600"
+                      height="450"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- konten yogyakarta -->
+            <div class="tab-pane fade" id="pills-yogya" role="tabpanel" aria-labelledby="pills-yogya-tab" tabindex="0">
+              <div class="row sewamobil">
+                <div class="col-md col-sm">
+                  <div class="row d-flex flex-column">
+                    <div class="col d-flex">
+                      <div class="col-2 px-4 py-4">
+                        <div class="rounded-circle"></div>
+                        <div class="line-vertical"></div>
+                        <div class="rounded-circle"></div>
+                      </div>
+                      <div id="adisucipto" class="col-10 py-4 text-start">
+                        <p>Bandara Yogyakarta International Airport</p>
+                        <p>Bus</p>
+                        <p>Jam Operasional : 09.00, 10.00, 13.00, 14.00, 17.30</p>
+                        <p><a href="" class="btn">Pesan di sini</a></p>
+                        <p class="text-white">Candi Borobudur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md col-sm">
+                  <div class="col-auto">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d253029.3842558557!2d109.94484219298124!3d-7.727688043477351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x2e7ae510af9cb49f%3A0x53f3289baac373ed!2sYogyakarta%20International%20Airport%2C%20Kepek%2C%20Palihan%2C%20Temon%2C%20Kulon%20Progo%20Regency%2C%20Special%20Region%20of%20Yogyakarta%2055654!3m2!1d-7.8970009999999995!2d110.060367!4m5!1s0x2e7a8cf009a7d697%3A0xdd34334744dc3cb!2sBorobudur%20Temple%2C%20Jl.%20Badrawati%2C%20Kw.%20Candi%20Borobudur%2C%20Borobudur%2C%20Magelang%20Regency%2C%20Central%20Java!3m2!1d-7.607873799999999!2d110.2037513!5e0!3m2!1sen!2sid!4v1678870690149!5m2!1sen!2sid"
+                      width="600"
+                      height="450"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- konten stasiun yogya -->
+            <div class="tab-pane fade" id="pills-st_yogya" role="tabpanel" aria-labelledby="pills-st_yogya-tab" tabindex="0">
+              <div class="row sewabus my-5">
+                <div class="col-md col-sm">
+                  <div class="row d-flex flex-column">
+                    <div class="col d-flex">
+                      <div class="col-2 px-4 py-4">
+                        <div class="rounded-circle"></div>
+                        <div class="line-vertical bus"></div>
+                        <div class="rounded-circle"></div>
+                      </div>
+                      <div class="col-10 py-4 text-start">
+                        <p class="">Stasiun Yogyakarta</p>
+                        <p>Bus</p>
+                        <p>Rp. 75.000</p>
+                        <p>Jam Operasional : 04.00 - 23.00</p>
+                        <p><a href="" class="btn">Pesan di sini</a></p>
+                        <p>Magelang (Pertigaan Palpabang)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row d-flex flex-column">
+                    <div class="col d-flex">
+                      <div class="col-2 px-4 py-4">
+                        <div class="rounded-circle"></div>
+                        <div class="line-vertical"></div>
+                        <div class="rounded-circle"></div>
+                      </div>
+                      <div class="col-10 py-4 text-start">
+                        <p>Magelang (Pertigaan Palbapang)</p>
+                        <p class="mt-0">Shuttle Bus</p>
+                        <p class="text-white borobudur-text mt-5">Candi Borobudur</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md col-sm">
+                  <div class="col-auto">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d253058.6185246056!2d110.14793449066701!3d-7.6787505951805555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x2e7a5825b0e272d3%3A0x9dd9e51691e0c413!2sYogyakarta%2C%20Sosromenduran%2C%20Gedong%20Tengen%2C%20Kota%20Yogyakarta%2C%20Daerah%20Istimewa%20Yogyakarta!3m2!1d-7.7892570999999995!2d110.3635068!4m5!1s0x2e7a8cf009a7d697%3A0xdd34334744dc3cb!2sBorobudur%20Temple%2C%20Jl.%20Badrawati%2C%20Kw.%20Candi%20Borobudur%2C%20Borobudur%2C%20Magelang%20Regency%2C%20Central%20Java!3m2!1d-7.607873799999999!2d110.2037513!5e0!3m2!1sen!2sid!4v1678871092198!5m2!1sen!2sid"
+                      width="600"
+                      height="450"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- konten opsi lain -->
+            <div class="tab-pane fade" id="pills-opsi" role="tabpanel" aria-labelledby="pills-opsi-tab" tabindex="0">
+              <div class="row opsilain my-5 mx-2">
+                <div class="col-md d-flex flex-column align-items-start">
+                  <p>Lihat rute berkendara dari lokasi kamu menuju Borobudur dengan Google Maps</p>
+                  <p>Pastikan kamu telah mengizinkan untuk mengaktifkan lokasi kamu di perangkat kamu</p>
+                  <p>
+                    <a class="btn d-flex gap-3" href="#" role="button"><img src="./assets/img_icons/logos_google-maps.svg" alt="" /> Lihat Rute di Google Maps</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- How to get end -->
+
+      <!-- kuliner section star -->
+      <section class="kuliner_khas container my-5 pb-5 position-relative" id="kuliner">
+        <div class="row mb-lg-5 py-5">
+          <div class="col-md-12 text-center">
+            <p class="h1" data-aos="fade-up" data-aos-duration="1000">Kuliner Khas Borobodur</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-2 row-cols-md-1 d-flex my-5">
+          <div class="col align-items-center d-flex my-lg-5">
+            <div class="wadahkulinerkiri" data-aos="fade-in" data-aos-duration="1000"></div>
+            <div class="imgkuliner">
+              <img src="../medcom_indotravel_borobudur/assets/img_content/section_etamangan/ketupat_tahu.jpg" alt="" data-aos="fade-left" data-aos-delay="200" />
+            </div>
+          </div>
+          <div class="col text-kiri-kuliner">
+            <p class="h3" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">Kupat Tahu</p>
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
+              Kupat Tahu Pak Slamet di Jalan Tentara Pelajar No.8, tidak jauh dari alun-alun Magelang ini punya rasa khas dan tak pernah berubah. Dengan tambahan bakwan di setiap porsi kupat tahunya, keseluruhannya disiram dengan sambal
+              kacang, sangat cocok untuk sarapan atau pun makan siang.
+            </p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-2 row-cols-md-1 d-flex">
+          <div class="col align-items-center d-flex my-lg-5 order-lg-2 text-kanan-kuliner">
+            <div class="wadahkulinerkanan" data-aos="fade-in" data-aos-duration="1000"></div>
+            <div class="imgkuliner">
+              <img src="../medcom_indotravel_borobudur/assets/img_content/section_etamangan/Ndas_Beong.jpg" alt="" data-aos="fade-right" />
+            </div>
+          </div>
+          <div class="col order-lg-1 text-kanan-kuliner">
+            <p class="h3" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">Ndas Beong</p>
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
+              Ikan Beong yang hanya ada di Sungai Progo dimasak dengan rempah-rempah istimewa. Bumbu lengkuas, jahe, sereh, sampai daun bawang menambah sedap dari Ikan Beong. Lembut sedap
+            </p>
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="600">
+              Ikan Beong adalah sejenis ikan yang hanya bisa ditemukan di Sungai Progo. Nah Ikan ini dimasak dengan rempah-rempah istimewa seperti lengkuas, sereh, jahe dan daun bawang yang menciptakan menu ikan yang begitu lembut dan
+              sedap.
+            </p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-2 row-cols-md-1 d-flex my-5">
+          <div class="col align-items-center d-flex my-lg-5">
+            <div class="wadahkulinerkiri" data-aos="fade-in" data-aos-duration="1000"></div>
+            <div class="imgkuliner">
+              <img src="../medcom_indotravel_borobudur/assets/img_content/section_etamangan/Es_Pleret.jpg" alt="" data-aos="fade-left" data-aos-delay="200" />
+            </div>
+          </div>
+          <div class="col text-kiri-kuliner">
+            <p class="h3" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">Es Pleret</p>
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
+              Rasakan kesejukan minuman istimewa yang dibuat dari tepung beras dan pati yang diproses dan dibentuk menjadi potongan-potongan kecil. Pleret ini kemudian dicampur dengan larutan gula aren, santan dan es serut. Minuman yang
+              sangat enak untuk menyegarkan dahaga di tengah hari yang terik.
+            </p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-2 row-cols-md-1 d-flex">
+          <div class="col align-items-center d-flex my-lg-5 order-lg-2 text-kanan-kuliner">
+            <div class="wadahkulinerkanan" data-aos="fade-in" data-aos-duration="1000"></div>
+            <div class="imgkuliner">
+              <img src="../medcom_indotravel_borobudur/assets/img_content/section_etamangan/Tempe_Mendoan.jpg" alt="" data-aos="fade-right" data-aos-delay="200" />
+            </div>
+          </div>
+          <div class="col order-lg-1 text-kanan-kuliner">
+            <p class="h3" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">Tempe Mendoan</p>
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
+              Suasana Restoran Stupa sangat sempurna untuk makan malam yang santai dengan lampu-lampu temaram yang indah dan tempat terbuka yang menghadap ke pemandangan alam yang mempesona sambil mengudap tempe mendoan.
+            </p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-2 row-cols-md-1 d-flex my-5">
+          <div class="col align-items-center d-flex my-lg-5">
+            <div class="wadahkulinerkiri" data-aos="fade-in" data-aos-duration="1000"></div>
+            <div class="imgkuliner">
+              <img src="../medcom_indotravel_borobudur/assets/img_content/section_etamangan/Nasi_Lesah.jpg" alt="" data-aos="fade-right" data-aos-delay="200" />
+            </div>
+          </div>
+          <div class="col text-kiri-kuliner">
+            <p class="h3" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">Nasi Lesah</p>
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
+              Nasi Lesah Pak Badut sepintas mirip dengan menu tradisional lain yang bernama Soto, namun kuah dari Lesah ini tidak kuning seperti Soto, melainkan disiram dengan menggunakan santan kelapa. Dan inilah yang membuat rasa lebih
+              kental dan sedap. Makan sop Lesah ini paling mantap jika ditemani sepiring nasi hangat yang mengepul.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- kuliner section end -->
+
+      <!-- section card destinasi star -->
+      <section class="carddestination my-5 py-5">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card text-bg-dark card1 text-white">
+              <img src="../medcom_indotravel_danautoba/assets/img_content/section hotelpilihan/borobudur_hotelpilihan.jpeg" class="card-img" alt="..." />
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                <h5 class="card-title h1">Habis Dari Candi Borobudur, Ke Mana Lagi Ya?</h5>
+                <p class="card-text">Bukan hanya Borobudur aja yang seru, masih ada tempat wisata lain yang menarik dan seru untuk kamu kunjungi.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-group">
+            <div class="col-lg-3 col-sm-6">
+              <div class="card text-bg-dark card1 text-white">
+                <img src="../medcom_indotravel_danautoba/assets/img_content/section destinasi/mandalika.jpg" class="card-img" alt="..." />
+                <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
+                  <h5 class="card-title">MANDALIKA</h5>
+                  <p class="card-text">Lombok Tengah, Nusa Tenggara Barat</p>
+                  <a href="http://192.168.122.74:5502/medcom_indotravel_mandalika/public.html" class="btn btn-outline-success" target="_blank">Lihat</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="card text-bg-dark card1 text-white">
+                <img src="../medcom_indotravel_danautoba/assets/img_content/section destinasi/labuan-bajo.jpg" class="card-img" alt="..." />
+                <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
+                  <h5 class="card-title">LABUAN BAJO</h5>
+                  <p class="card-text">Manggarai Barat, Nusa Tenggara Timur</p>
+                  <a href="http://192.168.122.74:5502/medcom_indotravel_labuanbajo/labuanbajo.html" class="btn btn-outline-success" target="_blank">Lihat</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="card text-bg-dark card1 text-white">
+                <img src="../medcom_indotravel_danautoba/assets/img_content/section destinasi/likupang.jpg" class="card-img" alt="..." />
+                <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
+                  <h5 class="card-title">LIKUPANG</h5>
+                  <p class="card-text">Minahasa Utara, Likupang</p>
+                  <a href="http://192.168.122.74:5502/medcom_indotravel_likupang/likupang.html" class="btn btn-outline-success" target="_blank">Lihat</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="card text-bg-dark card1 text-white">
+                <img src="../medcom_indotravel_danautoba/assets/img_content/section destinasi/danau_toba.jpg" class="card-img" alt="..." />
+                <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
+                  <h5 class="card-title">DANAU TOBA</h5>
+                  <p class="card-text">Toba Samosir, Sumatera Utara</p>
+                  <a href="http://192.168.122.74:5502/medcom_indotravel_danautoba/danautoba.html" class="btn btn-outline-success" target="_blank">Lihat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section card destinasi end -->
+
+      <!-- section footer star -->
+      <section class="footer container-fluid text-white px-lg-5 pb-5 py-2">
+        <div class="row row-cols-lg-3 row-cols-md-1 gap-3">
+          <div class="col">
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">Medcom.id bekerja sama dengan Kemenparekraf dan AirAsia mempromosikan wisata super prioritas Indonesia untuk mendukung industri Pariwisata Indonesia</p>
+          </div>
+          <div class="col-lg-5 col-md-12 d-flex justify-content-around creator gap-2">
+            <div class="d-flex flex-column" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
+              <p class="">Supervisor</p>
+              <p>Muhammad Rizal</p>
+            </div>
+            <div class="d-flex flex-column" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="600">
+              <p class="">UI/UX Desiner</p>
+              <p>Rio</p>
+              <p>Wisnu</p>
+            </div>
+            <div class="d-flex flex-column" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="800">
+              <p class="">Web Designer</p>
+              <p>Rio</p>
+              <p>Wisnu</p>
+            </div>
+            <div class="d-flex flex-column" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000">
+              <p class="">Penulis</p>
+              <p>Yatin Suleha</p>
+              <p>Achmad Firdaus</p>
+              <p>Raka Lestari</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-lg-end text-md-start creator" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1200">
+            <p>Support By</p>
+            <a href="https://www.airasia.com/id/id" target="_blank"><img src="../medcom_indotravel_danautoba/assets/img_icons/footer_icon.png" alt="" /></a>
+          </div>
+        </div>
+      </section>
+      <!-- section footer end -->
+    </div>
+    <!-- wrapping of Danau Toba end  -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- file jquery js -->
+    <script src="./src/js/jquery-3.6.3.min.js"></script>
+
+    <!-- file jquery easing -->
+    <script src="./src/js/jquery.easing.1.3.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./src/js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
