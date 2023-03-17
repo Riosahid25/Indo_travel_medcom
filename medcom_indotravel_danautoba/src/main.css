@@ -309,6 +309,12 @@
 .etamangan {
   position: relative;
   padding: 0 10px;
+  background: url(../assets/img_content/section_etamangan/etamangan_bg.png);
+}
+
+.etamangan .text-center p:nth-child(1),
+.etamangan .text-center p:nth-child(2) {
+  color: var(--color-body-primary);
 }
 
 .etamangan .mie-gomak img,
