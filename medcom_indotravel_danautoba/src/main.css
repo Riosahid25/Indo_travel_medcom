@@ -138,6 +138,7 @@
 .etamangan .text-center p:nth-child(2) {
   font-size: 24px;
   font-family: var(--font-body-primary);
+  font-weight: 600;
 }
 
 .geo-wrapping .card .card-img-overlay,
