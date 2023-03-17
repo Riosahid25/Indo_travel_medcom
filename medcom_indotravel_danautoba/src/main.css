@@ -10,6 +10,7 @@
   /* root untuk font family */
   --font-title-primary: "Pacifico", cursive;
   --font-body-primary: "Caveat", cursive;
+  --font-body-secondary: "Poppins", sans-serif;
 
   /* Color Pallet */
   --color-branding-primary: #5a7d8b;
@@ -177,15 +178,15 @@
 }
 
 .KehebatanDtoba p:nth-child(2) {
-  font-family: var(--font-body-primary);
+  font-family: var(--font-body-secondary);
   font-weight: 600;
   font-size: 20px;
   color: var(--color-branding-primary);
 }
 
 .KehebatanDtoba p:nth-child(3) {
-  font-family: var(--font-body-primary);
-  font-size: 16px;
+  font-family: var(--font-body-secondary);
+  font-size: 18px;
   color: var(--color-bodytext-primary);
 }
 /* kehebatan danau toba end */
@@ -204,7 +205,7 @@
   border-radius: 50px;
   box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   background-color: #ffffff;
-  font-family: var(--font-body-primary);
+  font-family: var(--font-body-secondary);
 }
 
 .tabmenu ul {
@@ -252,7 +253,7 @@
 .howtget .sewabus .text-start p:nth-child(4),
 .howtget .opsilain p:nth-child(2),
 .howtget .opsilain p:nth-child(3) {
-  font-family: var(--font-body-primary);
+  font-family: var(--font-body-secondary);
   color: var(--color-bodytext-primary);
 }
 
@@ -263,7 +264,7 @@
 .howtget .sewabus .text-start p:nth-child(4),
 .howtget .sewabus .text-start p:nth-child(5),
 .howtget .opsilain p:nth-child(1) {
-  font-family: var(--font-body-primary);
+  font-family: var(--font-body-secondary);
   color: var(--color-bodytext-primary);
   font-weight: 600;
 }
@@ -286,7 +287,7 @@
 .howtget .sewamobil .titlesewa,
 .howtget .sewabus .titlesewa {
   font-weight: 700;
-  font-family: var(--font-body-primary);
+  font-family: var(--font-body-secondary);
   color: var(--color-branding-primary);
   width: 25%;
 }

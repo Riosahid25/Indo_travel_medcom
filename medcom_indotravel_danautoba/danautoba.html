@@ -69,9 +69,11 @@
         </nav>
       </section>
       <section class="hero wrapping">
-        <video id="myVideo" muted autoplay loop="loop">
+        <!-- TAMBAHAN OKA -->
+        <video loop="loop" id="myVideo" playsinline autoplay muted>
           <source src="./assets/video/The_Majestic_Lake_Toba _ Trailer.mp4" type="video/mp4" />
         </video>
+        <!-- TAMBAHAN OKA END -->
         <div class="d-flex justify-content-between align-items-center hero-text">
           <div class="d-flex flex-column iconhero">
             <img src="./assets/img_icons/fb.svg" alt="" />
@@ -83,9 +85,11 @@
             <p class="h1 hTittletext">Horas! Sapa Indah Danau Toba</p>
             <p class="hMetatext">Di sini, 74.000 tahun yang lalu, bumi menorehkan bentangannya yang luar biasa indah. Meletakkan evolusi baru bagi peradaban manusia serta alamnya... Semua itu di Danau Toba</p>
           </div>
+          <!-- TAMBAHAN OKA -->
           <div class="d-flex btnvideo">
-            <a class="btn" href="#" role="button">Lihat Video</a>
+            <a class="btn muted" id="audio-control" role="button"><i id="iconVolume" class="bi bi-volume-mute"></i></a>
           </div>
+          <!-- TAMBAHAN OKA END-->
         </div>
       </section>
 
@@ -1254,16 +1258,55 @@
 
     <!-- animate on scroll AOS file js -->
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function (event) {
-        document.querySelector("#myVideo").play();
-      });
-    </script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- file libraries jquery -->
     <script src="./src/js/jquery-3.6.3.min.js"></script>
+
+    <!-- TAMBAHAN OKA -->
+    <script>
+      // unmuteButton.addEventListener("click", function () {
+      //   video.muted = false;
+      // });
+
+      $("#audio-control").click(function () {
+        if ($("#myVideo").prop("muted")) {
+          $("#myVideo").prop("muted", false);
+          $("#iconVolume").toggleClass("bi-volume-up bi-volume-mute");
+          // $(this).text("Mute");
+          // or toggle class, style it with a volume icon sprite, change background-position
+        } else {
+          $("#myVideo").prop("muted", true);
+          $("#iconVolume").toggleClass("bi-volume-mute bi-volume-up");
+        }
+      });
+
+      // function Playme() {
+      //   video.muted = false;
+      // }
+
+      // function Clickme() {
+      //   $(window).load(function () {
+      //     var e = $.Event("keydown", { keyCode: 39 });
+      //     setTimeout(function () {
+      //       $(document).trigger(e);
+      //     }, 500);
+      //   });
+      // }
+
+      // function Clickme2() {
+      //   unmuteButton.click();
+      // }
+
+      // if (video.muted == true) {
+      //   $(document).ready(function () {
+      //     console.log("Ready!");
+      //     setTimeout(Clickme, 500);
+      //     setTimeout(Clickme2, 1000);
+      //   });
+      // }
+    </script>
+    <!-- TAMBAHAN OKA END -->
 
     <!-- file libraries jquery easing when page on scroll -->
     <script src="./src/js/jquery.easing.1.3.js"></script>
