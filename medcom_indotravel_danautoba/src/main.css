@@ -9,7 +9,7 @@
 :root {
   /* root untuk font family */
   --font-title-primary: "Pacifico", cursive;
-  --font-body-primary: "Caveat", cursive;
+  --font-body-primary: "Poppins", sans-serif;
   --font-body-secondary: "Poppins", sans-serif;
 
   /* Color Pallet */
@@ -311,7 +311,8 @@
 .etamangan {
   position: relative;
   padding: 0 10px;
-  background: url(../assets/img_content/section_etamangan/etamangan_bg.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/img_content/section_etamangan/etamangan_bg.png);
+  background-attachment: fixed;
 }
 
 .etamangan .text-center p:nth-child(1),
@@ -332,29 +333,30 @@
   /* height: 300px; */
   padding: 20px;
   gap: 10px;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  /* box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04); */
   z-index: 2;
   /* margin-left: -50px; */
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .etamangan .mie-gomak .text-etamangan p:nth-child(1),
 .etamangan .manuk-napinadar .text-etamangan p:nth-child(1),
 .etamangan .sambal-tuk .text-etamangan p:nth-child(1) {
-  color: var(--color-branding-primary);
+  color: var(--color-body-primary);
   font-weight: bold;
   font-family: var(--font-body-primary);
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .etamangan .mie-gomak .text-etamangan p:nth-child(2),
 .etamangan .mie-gomak .text-etamangan p:nth-child(3),
 .etamangan .manuk-napinadar .text-etamangan p:nth-child(2),
+.etamangan .manuk-napinadar .text-etamangan p:nth-child(3),
 .etamangan .sambal-tuk .text-etamangan p:nth-child(2),
 .etamangan .sambal-tuk .text-etamangan p:nth-child(3) {
   font-family: var(--font-body-primary);
-  font-size: 22px;
-  color: var(--color-bodytext-primary);
+  font-size: 18px;
+  color: var(--color-body-primary);
 }
 
 .etamangan .manuk-napinadar .text-etamangan {
@@ -362,10 +364,10 @@
   /* height: 300px; */
   padding: 20px;
   gap: 10px;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  /* box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04); */
   z-index: 2;
   /* margin-right: -80px; */
-  background-color: #ffffff;
+  background-color: transparent;
 }
 /* for a section eta mangan end */
 
