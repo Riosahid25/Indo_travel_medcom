@@ -137,9 +137,9 @@
 .geo-wrapping .tesegosite,
 .KehebatanDtoba .teskehebatanDtoba,
 .etamangan .text-center p:nth-child(2) {
-  font-size: 24px;
+  font-size: 20px;
   font-family: var(--font-body-primary);
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .geo-wrapping .card .card-img-overlay,
@@ -282,6 +282,10 @@
 
 .howtget .sewabus .text-start a:hover {
   background-color: #4e6e7b;
+}
+
+.howtget .text-center .airasia {
+  background: transparent !important;
 }
 
 .howtget .sewamobil .titlesewa,
