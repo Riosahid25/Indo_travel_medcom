@@ -91,6 +91,11 @@
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
+  visibility: hidden;
+}
+
+.hero-text .iconhero {
+  visibility: hidden;
 }
 
 .howtget .sewabus .text-start a {

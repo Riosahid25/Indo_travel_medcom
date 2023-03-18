@@ -108,10 +108,15 @@
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
   transition: 0.5s;
+  visibility: hidden;
 }
 
 .hero .hero-text .btnvideo a:hover {
   background: #4c6772;
+}
+
+.hero-text .iconhero {
+  visibility: hidden;
 }
 
 /* hero end */

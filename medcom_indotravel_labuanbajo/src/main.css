@@ -113,6 +113,11 @@ body {
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
   transition: 1s;
+  visibility: hidden;
+}
+
+.hero-text .iconhero {
+  visibility: hidden;
 }
 
 .hero .hero-text .btnvideo a:hover {
@@ -151,8 +156,7 @@ body {
   /* width: 500px; */
   /* height: 102px; */
   border-radius: 50px;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
-    0px 0px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   background-color: #ffffff;
   font-family: var(--font-body-primary);
 }
