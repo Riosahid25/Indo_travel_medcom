@@ -70,7 +70,7 @@
       </section>
       <section class="hero wrapping">
         <!-- TAMBAHAN OKA -->
-        <video loop="loop" id="myVideo" playsinline autoplay muted>
+        <video id="myVideo" playsinline="playsinline" autoplay="autoplay" loop="loop">
           <source src="./assets/video/The_Majestic_Lake_Toba _ Trailer.mp4" type="video/mp4" />
         </video>
         <!-- TAMBAHAN OKA END -->
@@ -1271,17 +1271,17 @@
       //   video.muted = false;
       // });
 
-      $("#audio-control").click(function () {
-        if ($("#myVideo").prop("muted")) {
-          $("#myVideo").prop("muted", false);
-          $("#iconVolume").toggleClass("bi-volume-up bi-volume-mute");
-          // $(this).text("Mute");
-          // or toggle class, style it with a volume icon sprite, change background-position
-        } else {
-          $("#myVideo").prop("muted", true);
-          $("#iconVolume").toggleClass("bi-volume-mute bi-volume-up");
-        }
-      });
+      // $("#audio-control").click(function () {
+      //   if ($("#myVideo").prop("muted")) {
+      //     $("#myVideo").prop("muted", false);
+      //     $("#iconVolume").toggleClass("bi-volume-up bi-volume-mute");
+      //     // $(this).text("Mute");
+      //     // or toggle class, style it with a volume icon sprite, change background-position
+      //   } else {
+      //     $("#myVideo").prop("muted", true);
+      //     $("#iconVolume").toggleClass("bi-volume-mute bi-volume-up");
+      //   }
+      // });
 
       // function Playme() {
       //   video.muted = false;
