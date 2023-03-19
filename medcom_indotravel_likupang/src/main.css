@@ -98,7 +98,7 @@ body {
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 20px;
+  width: 80px;
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;

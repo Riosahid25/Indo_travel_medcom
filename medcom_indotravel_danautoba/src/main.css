@@ -107,7 +107,7 @@
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 20px;
+  width: 80px;
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
@@ -138,6 +138,40 @@
 /* maps end */
 
 /* geosite star */
+
+/* js popup geo */
+.container-wrapping#blur {
+  transition: 0.5s;
+}
+
+.container-wrapping#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+#popup_geo1,
+#popup_geo2 {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 50px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  background-color: var(--color-body-primary);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#popup_geo1.active,
+#popup_geo2.active {
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
 
 .geo-wrapping .titlegeo,
 .KehebatanDtoba .titleKehebatandToba,
@@ -563,6 +597,11 @@
     padding: 10px;
   }
 
+  #popup_geo1,
+  #popup_geo2 {
+    width: 95%;
+    margin: 20px 0;
+  }
   .geo-wrapping .card-img-overlay p {
     font-size: 12px;
   }

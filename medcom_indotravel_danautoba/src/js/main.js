@@ -19,3 +19,20 @@ $(".page-scroll").on("click", function (e) {
   // penghenti atribut href e agar tidak jalan
   e.preventDefault();
 });
+
+// popup geosite
+function toggle() {
+  var blur = document.getElementById("blur");
+  blur.classList.toggle("active");
+
+  var popup_geo1 = document.getElementById("popup_geo1");
+  popup_geo1.classList.toggle("active");
+}
+
+function toggle2() {
+  var blur = document.getElementById("blur");
+  blur.classList.toggle("active");
+
+  var popup_geo2 = document.getElementById("popup_geo2");
+  popup_geo2.classList.toggle("active");
+}
