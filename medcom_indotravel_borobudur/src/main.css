@@ -451,7 +451,7 @@ body {
 
 /* footer section star */
 .footer p {
-  color: var(--color-fonttext-primary);
+  color: var(--color-bodytext-primary);
 }
 
 .footer .creator p:nth-child(1) {
