@@ -98,11 +98,20 @@ body {
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 100px;
+  width: 20px;
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
-  visibility: hidden;
+  /* visibility: hidden; */
+  transition: 0.5s;
+}
+
+.btnvideo a:hover {
+  background-color: #234d55 !important;
+}
+
+.btnvideo .bi {
+  font-size: 30px;
 }
 
 .hero-text .iconhero {
@@ -173,13 +182,14 @@ body {
   background-color: var(--color-branding-primary);
   border-radius: 20px;
   width: 300px;
+  transition: 0.5s;
 }
 
 .nav-pills button {
   color: var(--color-body-primary);
 }
 .nav-pills button:hover {
-  color: var(--color-branding-primary);
+  color: var(--color-body-primary);
 }
 
 .howtget .rounded-circle {
@@ -377,6 +387,10 @@ body {
   .hero.wrapping .hero-text .btnvideo a {
     font-size: 10px;
     /* width: 80px; */
+  }
+
+  .btnvideo .bi {
+    font-size: 10px;
   }
 
   .hero.wrapping .hero-text {

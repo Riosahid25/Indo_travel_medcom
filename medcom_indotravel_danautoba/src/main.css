@@ -103,12 +103,16 @@
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 100px;
+  width: 20px;
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
   transition: 0.5s;
-  visibility: hidden;
+  /* visibility: hidden; */
+}
+
+.btnvideo .bi {
+  font-size: 30px;
 }
 
 .hero .hero-text .btnvideo a:hover {
@@ -378,6 +382,10 @@
   /* margin-right: -80px; */
   background-color: transparent;
 }
+
+.etamangan img {
+  box-shadow: 0 18px 8px rgba(0, 0, 0, 0.3);
+}
 /* for a section eta mangan end */
 
 /* section hotel pilihan star */
@@ -415,6 +423,12 @@
 
 .hotelpilihan .btn_traveloka .btn {
   background-color: #5a7d8b;
+  color: var(--color-body-primary);
+  transition: 0.5s;
+}
+
+.hotelpilihan .btn_traveloka .btn:hover {
+  background-color: #435d68;
 }
 
 /* .hotelpilihan .list_harga {
@@ -488,6 +502,14 @@
 
 /* breakpoint ==========================================*/
 
+/* mobile paling kecil devicenya  */
+@media (max-width: 320px) {
+  .hero.wrapping .hero-text {
+    transform: translateY(50%);
+    /* margin-top: 20px; */
+  }
+}
+
 /* bS5 mobile extra small < 576px */
 @media (max-width: 576px) {
   .navbarToba .logo img {
@@ -518,6 +540,10 @@
     /* width: 80px; */
   }
 
+  .btnvideo .bi {
+    font-size: 10px;
+  }
+
   .hero.wrapping .hero-text {
     transform: translateY(100%);
     margin-top: 20px;
@@ -539,6 +565,11 @@
     font-size: 14px;
   }
 
+  .etamangan img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
   .etamangan .mie-gomak .text-etamangan p:nth-child(1),
   .etamangan .manuk-napinadar .text-etamangan p:nth-child(1),
   .etamangan .sambal-tuk .text-etamangan p:nth-child(1) {
@@ -553,19 +584,19 @@
   .etamangan .sambal-tuk .text-etamangan p:nth-child(3) {
     font-size: 16px;
     font-family: var(--font-body-primary);
-    color: var(--color-bodytext-primary);
+    color: var(--color-body-primary);
   }
 
   .etamangan .mie-gomak .text-etamangan,
   .etamangan .sambal-tuk .text-etamangan {
     padding: 20px;
-    margin-left: -330px;
+    /* margin-left: -330px; */
     width: 100%;
   }
 
-  .etamangan .manuk-napinadar .text-etamangan {
+  /* .etamangan .manuk-napinadar .text-etamangan {
     margin-right: -350px;
-  }
+  } */
 
   .howtget .sewamobil .titlesewa,
   .howtget .sewabus .titlesewa {

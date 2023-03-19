@@ -108,12 +108,18 @@ body {
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 100px;
+  width: 20px;
   background-color: var(--color-background);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
-  transition: 1s;
-  visibility: hidden;
+  transition: 0.5s;
+  /* visibility: hidden; */
+}
+
+.btnvideo .bi {
+  font-size: 30px;
+  color: var(--color-branding-primary);
+  transition: 0.5s;
 }
 
 .hero-text .iconhero {
@@ -121,7 +127,11 @@ body {
 }
 
 .hero .hero-text .btnvideo a:hover {
-  background: #a89184;
+  background: #88766b;
+}
+
+.btnvideo a:hover .bi {
+  color: var(--color-body-primary);
 }
 
 /* hero end */
@@ -241,9 +251,14 @@ body {
 
 .howtget .tab-content .btn {
   font-family: var(--font-body-primary);
-  background-color: white;
+  background-color: #fff;
   transition: 0.5s;
   font-size: 14px;
+  transition: 0.5s;
+}
+
+.howtget .tab-content .btn:hover {
+  background-color: #e1e1e1;
 }
 /* for the section tab menu detail maps end */
 
@@ -356,7 +371,7 @@ body {
 
 /* section for akomodasi star */
 .akomodasi {
-  margin-top: 100px;
+  padding: 50px 0;
 }
 
 .akomodasi .text-center p:nth-child(1) {
@@ -379,6 +394,12 @@ body {
 
 .akomodasi .card a {
   background: var(--color-background);
+  transition: 0.5s;
+}
+
+.akomodasi .card a:hover {
+  background: #b9a090;
+  color: var(--color-body-primary);
 }
 
 .akomodasi .card .card-title {
@@ -436,6 +457,10 @@ body {
   .hero.wrapping .hero-text .btnvideo a {
     font-size: 10px;
     /* width: 80px; */
+  }
+
+  .btnvideo .bi {
+    font-size: 10px;
   }
 
   .hero.wrapping .hero-text {

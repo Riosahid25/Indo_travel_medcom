@@ -11,7 +11,7 @@
   --font-body-primary: "Poppins", sans-serif;
 
   /* Color Pallet */
-  --color-branding-primary: #5a7d8b;
+  --color-branding-primary: #00649c;
   --color-icon-primary: #5a5a59;
   --color-icon-secondary: #b6b6b6;
   --color-bodytext-primary: #3d3d3d;
@@ -87,11 +87,20 @@
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 100px;
+  width: 20px;
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
-  visibility: hidden;
+  /* visibility: hidden; */
+  transition: 0.5s;
+}
+
+.hero .hero-text .btnvideo a:hover {
+  background-color: #054062;
+}
+
+.btnvideo .bi {
+  font-size: 30px;
 }
 
 .hero-text .iconhero {
@@ -103,6 +112,11 @@
   color: var(--color-body-primary);
   transition: 0.5s;
   font-size: 14px;
+  transition: 0.5s;
+}
+
+.howtget .sewabus .text-start a:hover {
+  background-color: #143c61;
 }
 
 /* hero end */
@@ -187,7 +201,7 @@
   color: #ffffff;
 }
 .nav-pills button:hover {
-  color: var(--color-branding-primary);
+  color: var(--color-body-primary);
 }
 
 .howtget .rounded-circle {
@@ -379,6 +393,10 @@
   font-size: 16px;
   font-weight: 600;
 }
+
+.akomodasi .card .btn:hover {
+  background-color: #2974ba;
+}
 /* akomodasi end*/
 
 /* section hotel pilihan star */
@@ -485,8 +503,8 @@
     display: block;
   }
 
-  .hero .hero-text .btnvideo a {
-    width: 100%;
+  .btnvideo .bi {
+    font-size: 10px;
   }
 
   .hero .hero-text .iconhero {
@@ -506,7 +524,7 @@
 
   .hero.wrapping .hero-text .btnvideo a {
     font-size: 10px;
-    width: 80px;
+    width: 20px;
   }
 
   .hero.wrapping .hero-text {

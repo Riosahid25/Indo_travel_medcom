@@ -79,7 +79,7 @@
 
       <!-- banner video -->
       <section class="hero wrapping">
-        <video playsinline="playsinline" autoplay="autoplay" loop="loop">
+        <video id="myVideo" playsinline="playsinline" muted autoplay="autoplay" loop="loop">
           <source src="./assets/video/The Gems of Borobudur Temple2.mp4" type="video/mp4" />
         </video>
         <div id="banner-video" class="d-flex align-items-center hero-text">
@@ -94,7 +94,7 @@
             <p class="hMetatext">Dikenal sebagai salah satu bukti sejarah panjang perkembangan agama Buddha di Indonesia, Candi Borobudur Semua itu di Danau Toba</p>
           </div>
           <div class="d-flex btnvideo">
-            <a class="btn" href="#" role="button">Lihat Video</a>
+            <a class="btn muted" id="audio-control" role="button"><i id="iconVolume" class="bi bi-volume-mute"></i></a>
           </div>
         </div>
       </section>
@@ -639,6 +639,20 @@
 
     <!-- file jquery js -->
     <script src="./src/js/jquery-3.6.3.min.js"></script>
+
+    <script>
+      $("#audio-control").click(function () {
+        if ($("#myVideo").prop("muted")) {
+          $("#myVideo").prop("muted", false);
+          $("#iconVolume").toggleClass("bi-volume-up bi-volume-mute");
+          // $(this).text("Mute");
+          // or toggle class, style it with a volume icon sprite, change background-position
+        } else {
+          $("#myVideo").prop("muted", true);
+          $("#iconVolume").toggleClass("bi-volume-mute bi-volume-up");
+        }
+      });
+    </script>
 
     <!-- file jquery easing -->
     <script src="./src/js/jquery.easing.1.3.js"></script>

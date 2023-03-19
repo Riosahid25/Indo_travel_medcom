@@ -114,7 +114,22 @@ body {
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
-  visibility: hidden;
+  /* visibility: hidden; */
+  transition: 0.5s;
+}
+
+.btnvideo a:hover {
+  background-color: #9f8769 !important;
+}
+
+.btnvideo a:hover .bi {
+  color: var(--color-body-primary);
+}
+
+.btnvideo .bi {
+  font-size: 30px;
+  color: var(--color-fonttext-primary);
+  transition: 0.5s;
 }
 
 .hero-text .iconhero {
@@ -463,9 +478,9 @@ body {
     display: block;
   }
 
-  .hero .hero-text .btnvideo a {
+  /* .hero .hero-text .btnvideo a {
     width: 100%;
-  }
+  } */
 
   .hero .hero-text .iconhero {
     width: 25px;
@@ -484,7 +499,11 @@ body {
 
   .hero.wrapping .hero-text .btnvideo a {
     font-size: 10px;
-    width: 80px;
+    width: 20px;
+  }
+
+  .btnvideo .bi {
+    font-size: 10px;
   }
 
   .hero.wrapping .hero-text {
