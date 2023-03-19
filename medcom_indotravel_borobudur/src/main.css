@@ -11,7 +11,7 @@
   --font-body-primary: "Poppins", sans-serif;
 
   /* Color Pallet */
-  --color-branding-primary: #5a7d8b;
+  --color-branding-primary: #e7c295;
   --color-icon-primary: #5a5a59;
   --color-icon-secondary: #b6b6b6;
   --color-bodytext-primary: #3d3d3d;
@@ -19,10 +19,11 @@
   --color-button-primary: #0094f3;
   --color-navbar-primary: #303030;
   --color-btnmap-primary: #188038;
+  --color-fonttext-primary: #935c35;
 }
 
 body {
-  background-color: #141010;
+  background-color: var(--color-body-primary);
 }
 
 /* wrapping danautoba star */
@@ -171,7 +172,7 @@ body {
 /* kehebatan danau toba end */
 
 .nav-pills button {
-  color: #b6b6b6;
+  color: var(--color-body-primary);
 }
 .nav-pills button:hover {
   color: var(--color-branding-primary);
@@ -193,7 +194,7 @@ body {
 .howtget .opsilain p:nth-child(2),
 .howtget .opsilain p:nth-child(3) {
   font-family: var(--font-body-primary);
-  color: white;
+  color: var(--color-fonttext-primary);
 }
 
 .howtget .sewamobil .text-start p:nth-child(1),
@@ -205,7 +206,7 @@ body {
 .howtget .sewabus .text-start p:nth-child(5),
 .howtget .opsilain p:nth-child(1) {
   font-family: var(--font-body-primary);
-  color: white;
+  color: var(--color-fonttext-primary);
   font-weight: 600;
 }
 
@@ -334,25 +335,26 @@ body {
 /* for a section kuliner khas star */
 .kuliner_khas {
   position: relative;
-  color: var(--color-body-primary);
+  color: var(--color-fonttext-primary);
+  background: var(--color-branding-primary);
 }
 
 .kuliner_khas .wadahkulinerkiri {
   width: 400px;
   height: 500px;
-  background-color: var(--color-body-primary);
+  background-color: var(--color-fonttext-primary);
   border-radius: 8px;
   position: absolute;
-  z-index: -1;
+  /* z-index: 1; */
 }
 
 .kuliner_khas .wadahkulinerkanan {
   width: 400px;
   height: 500px;
-  background-color: var(--color-body-primary);
+  background-color: var(--color-fonttext-primary);
   border-radius: 8px;
   position: absolute;
-  z-index: -1;
+  /* z-index: 1; */
   margin-left: 100px;
 }
 
@@ -362,6 +364,8 @@ body {
 
 .kuliner_khas img {
   width: 500px;
+  z-index: 2;
+  box-shadow: 0 15px 8px rgba(0, 0, 0, 0.2);
 }
 
 .kuliner_khas p:nth-child(1) {
@@ -431,6 +435,10 @@ body {
 /* section card destination end */
 
 /* footer section star */
+.footer p {
+  color: var(--color-fonttext-primary);
+}
+
 .footer .creator p:nth-child(1) {
   font-weight: 700;
 }

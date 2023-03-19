@@ -11,7 +11,7 @@
   --font-body-primary: "Poppins", sans-serif;
 
   /* Color Pallet */
-  --color-branding-primary: #5a7d8b;
+  --color-branding-primary: #e7c295;
   --color-icon-primary: #5a5a59;
   --color-icon-secondary: #b6b6b6;
   --color-bodytext-primary: #3d3d3d;
@@ -19,13 +19,20 @@
   --color-button-primary: #0094f3;
   --color-navbar-primary: #303030;
   --color-btnmap-primary: #188038;
+  --color-fonttext-primary: #935c35;
+}
+
+.tentang_borobudur {
+  background: var(--color-branding-primary);
+  margin-top: -5px;
 }
 
 .titleTentangBorobudur {
   font-family: var(--font-body-primary);
-  color: white;
+  color: var(--color-fonttext-primary);
   text-align: center;
   font-size: 28px;
+  font-weight: 600;
 }
 
 .borobudur_hero {
@@ -34,8 +41,8 @@
 }
 
 .tentang_caption {
-  color: white;
-  font-size: 16px;
+  color: var(--color-fonttext-primary);
+  font-size: 18px;
   font-family: var(--font-body-primary);
 }
 
@@ -49,6 +56,9 @@
 }
 
 @media (max-width: 768px) {
+  .tentang_borobudur {
+    padding-top: 40px;
+  }
 }
 
 @media (max-width: 992px) {

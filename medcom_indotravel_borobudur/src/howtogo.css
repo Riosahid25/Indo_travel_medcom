@@ -11,7 +11,7 @@
   --font-body-primary: "Poppins", sans-serif;
 
   /* Color Pallet */
-  --color-branding-primary: #5a7d8b;
+  --color-branding-primary: #e7c295;
   --color-icon-primary: #5a5a59;
   --color-icon-secondary: #b6b6b6;
   --color-bodytext-primary: #3d3d3d;
@@ -19,22 +19,28 @@
   --color-button-primary: #0094f3;
   --color-navbar-primary: #303030;
   --color-btnmap-primary: #188038;
+  --color-fonttext-primary: #935c35;
+  --color-tabmenu-primary: #be8e62;
+}
+
+.howtget {
+  background: var(--color-branding-primary);
 }
 
 .howtget .titleHTG {
   font-family: var(--font-title-primary);
   font-size: 63px;
-  color: white;
+  color: var(--color-fonttext-primary);
 }
 
 .nav-pills .nav-link.active {
-  background-color: #141010;
+  background-color: var(--color-fonttext-primary);
   border-radius: 20px;
 }
 
 .tabmenu {
   border-radius: 50px;
-  background-color: #252525;
+  background-color: var(--color-tabmenu-primary);
   font-family: var(--font-body-primary);
 }
 
@@ -47,14 +53,14 @@
   height: 20px;
   border-style: solid;
   border-width: 3px;
-  border-color: white;
+  border-color: var(--color-fonttext-primary);
 }
 
 .howtget .sewamobil .line-vertical,
 .howtget .sewabus .line-vertical {
   width: 2px;
   height: 158px;
-  background-color: white;
+  background-color: var(--color-fonttext-primary);
   margin: 0 9.2px;
 }
 
@@ -62,12 +68,12 @@
 .howtget .sewabus .titlesewa {
   font-weight: 700;
   font-family: var(--font-body-primary);
-  color: white;
+  color: var(--color-fonttext-primary) !important;
   width: 25%;
 }
 
 .howtget .tab-content .btn {
-  background-color: #141010;
+  background-color: var(--color-fonttext-primary);
   color: var(--color-body-primary);
   transition: 0.5s;
   font-size: 14px;
@@ -75,8 +81,4 @@
 
 #adisucipto {
   line-height: 25px;
-}
-
-footer p {
-  font-size: px;
 }
