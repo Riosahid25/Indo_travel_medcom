@@ -151,7 +151,21 @@
 }
 
 #popup_geo1,
-#popup_geo2 {
+#popup_geo2,
+#popup_geo3,
+#popup_geo4,
+#popup_geo5,
+#popup_geo6,
+#popup_geo7,
+#popup_geo8,
+#popup_geo9,
+#popup_geo10,
+#popup_geo11,
+#popup_geo12,
+#popup_geo13,
+#popup_geo14,
+#popup_geo15,
+#popup_geo16 {
   position: fixed;
   top: 40%;
   left: 50%;
@@ -166,7 +180,21 @@
 }
 
 #popup_geo1.active,
-#popup_geo2.active {
+#popup_geo2.active,
+#popup_geo3.active,
+#popup_geo4.active,
+#popup_geo5.active,
+#popup_geo6.active,
+#popup_geo7.active,
+#popup_geo8.active,
+#popup_geo9.active,
+#popup_geo10.active,
+#popup_geo11.active,
+#popup_geo12.active,
+#popup_geo13.active,
+#popup_geo14.active,
+#popup_geo15.active,
+#popup_geo16.active {
   top: 50%;
   visibility: visible;
   opacity: 1;
@@ -598,7 +626,21 @@
   }
 
   #popup_geo1,
-  #popup_geo2 {
+  #popup_geo2,
+  #popup_geo3,
+  #popup_geo4,
+  #popup_geo5,
+  #popup_geo6,
+  #popup_geo7,
+  #popup_geo8,
+  #popup_geo9,
+  #popup_geo10,
+  #popup_geo11,
+  #popup_geo12,
+  #popup_geo13,
+  #popup_geo14,
+  #popup_geo15,
+  #popup_geo16 {
     width: 95%;
     margin: 20px 0;
   }
