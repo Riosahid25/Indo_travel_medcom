@@ -375,9 +375,9 @@ body {
     height: 5px;
   }
 
-  .text-title img {
-    width: 200px;
-    margin-top: 15px;
+  .text-title p {
+    font-family: var(--font-title-primary);
+    font-size: 38px;
   }
 }
 /* bS5 tablet small < 576px */
