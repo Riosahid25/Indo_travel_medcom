@@ -8,6 +8,9 @@
     <!-- icon -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
+    <!-- file libraries AOS animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -39,7 +42,7 @@
       </div>
 
       <div class="world-map" id="tooltip">
-        <img src="./assets/img_intro/Indonesia.png" alt="map" />
+        <img src="./assets/img_content/section homepage/map_homepage.png" alt="map" />
 
         <div class="pin D_toba">
           <span onclick="toggle()">Danau Toba</span>
@@ -116,13 +119,84 @@
           </div>
         </div>
       </div>
+
+      <div class="text-title text-center">
+        <img src="./assets/img_content/section homepage/text-destinasi-prioritas.png" data-aos="zoom-in" data-aos-duration="1000" alt="" />
+      </div>
     </section>
+
+    <!-- section card destinasi star -->
+    <section class="carddestination">
+      `
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card text-bg-dark card1 text-white">
+            <img src="./medcom_indotravel_danautoba/assets/img_content/section destinasi/danau_toba.jpg" class="card-img" alt="..." />
+            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
+              <h5 class="card-title h1">Pertama ada Danau Toba, Mari yuk kita kunjungi</h5>
+              <!-- <p class="card-text">Bukan hanya Danau Toba aja yang seru, masih ada tempat wisata lain yang menarik dan seru untuk kamu kunjungi.</p> -->
+              <a href="./medcom_indotravel_danautoba/danautoba.html" class="btn btn-outline-success">Lihat</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-group">
+          <div class="col-lg-3 col-sm-6">
+            <div class="card text-bg-dark card1 text-white">
+              <img src="./medcom_indotravel_danautoba/assets/img_content/section hotelpilihan/borobudur_hotelpilihan.jpeg" class="card-img" alt="..." />
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
+                <h5 class="card-title">CANDI BOROBUDUR</h5>
+                <p class="card-text">Magelang, Jawa Tengah</p>
+                <a href="./medcom_indotravel_borobudur/borobudur.html" class="btn btn-outline-success">Lihat</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="card text-bg-dark card1 text-white">
+              <img src="./medcom_indotravel_danautoba/assets/img_content/section destinasi/mandalika.jpg" class="card-img" alt="..." />
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
+                <h5 class="card-title">MANDALIKA</h5>
+                <p class="card-text">Lombok Tengah, Nusa Tenggara Barat</p>
+                <a href="./medcom_indotravel_mandalika/mandalika.html" class="btn btn-outline-success">Lihat</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="card text-bg-dark card1 text-white">
+              <img src="./medcom_indotravel_danautoba/assets/img_content/section destinasi/labuan-bajo.jpg" class="card-img" alt="..." />
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
+                <h5 class="card-title">LABUAN BAJO</h5>
+                <p class="card-text">Manggarai Barat, Nusa Tenggara Timur</p>
+                <a href="./medcom_indotravel_labuanbajo/labuanbajo.html" class="btn btn-outline-success">Lihat</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="card text-bg-dark card1 text-white">
+              <img src="./medcom_indotravel_danautoba/assets/img_content/section destinasi/likupang.jpg" class="card-img" alt="..." />
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
+                <h5 class="card-title">LIKUPANG</h5>
+                <p class="card-text">Minahasa Utara, Likupang</p>
+                <a href="./medcom_indotravel_likupang/likupang.html" class="btn btn-outline-success">Lihat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section card destinasi end -->
     <!-- section intro end -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- animate on scroll AOS file js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- file libraries jquery -->
+    <script src="./src/js/jquery-3.6.3.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -172,6 +246,10 @@
         var tooltip5 = document.getElementById("tooltip_5");
         tooltip5.classList.toggle("active");
       }
+    </script>
+
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
