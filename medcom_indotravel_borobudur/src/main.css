@@ -659,9 +659,9 @@ body {
     transform: translateY(100%);
   }
 
-  .hero .hero-text .iconhero {
+  /* .hero .hero-text .iconhero {
     width: 50px;
-  }
+  } */
 
   .hero.wrapping .hero-text .hTittletext {
     font-size: 50px;
