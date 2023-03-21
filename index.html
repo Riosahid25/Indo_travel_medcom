@@ -11,20 +11,27 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
+    <!-- aos cdn scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- file css main -->
     <link rel="stylesheet" href="./src/intro.css" />
 
     <!-- Animated -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>Destinasi Prioritas</title>
   </head>
   <body>
+    <div class="preloder" id="page-preloader">
+      <div class="circle"></div>
+    </div>
+
     <!-- section intro star -->
     <section class="container-fluid">
       <div class="layout">
         <div class="logo d-flex flex-column align-items-center">
-          <img class="logo-air" src="./assets/img_intro/air.png" alt="" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="100" />
-          <p data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="200">Presented</p>
+          <img class="logo-air" src="./assets/img_intro/air.png" alt="" data-aos="zoom-in" data-aos-duration="2500" data-aos-offset="100" />
+          <p data-aos="zoom-in" data-aos-duration="3000" data-aos-offset="200">Presented</p>
         </div>
 
         <div class="d-flex justify-content-center">
@@ -34,7 +41,7 @@
         <div class="d-flex flex-column layout-text-button justify-content-between">
           <div class="text-style d-flex flex-column align-items-center">
             <img src="./assets/img_intro/destinasi.png" alt="" data-aos="fade-right" data-aos-offset="300" data-aos-duration="2500" />
-            <img src="./assets/img_intro/prioritas.png" alt="" data-aos="fade-left" data-aos-offset="400" data-aos-duration="3000" />
+            <img src="./assets/img_intro/prioritas.png" alt="" data-aos="fade-left" data-aos-offset="400" data-aos-duration="2600" />
           </div>
 
           <div class="text-center">
@@ -51,5 +58,10 @@
     <script>
       AOS.init();
     </script>
+
+    <!-- file libraries jquery -->
+    <script src="./src/js/jquery-3.6.3.min.js"></script>
+
+    <script src="./src/js/preloader.js"></script>
   </body>
 </html>
