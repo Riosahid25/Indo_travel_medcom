@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  background: url(../assets/img_intro/kayu.png);
+  background: url(../assets/img_intro/kayu.webp);
   background-size: cover;
   padding: 28px 0;
   object-fit: cover;
