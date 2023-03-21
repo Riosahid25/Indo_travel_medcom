@@ -24,10 +24,15 @@
 
 /* breakpoint ==========================================*/
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--color-branding-primary);
   background: url(../medcom_indotravel_danautoba/assets/img_content/section_geo/bg.png);
   background-size: cover;
+  object-fit: cover;
 }
 
 .intro {
@@ -306,6 +311,11 @@ body {
 
 /* bS5 mobile extra small < 576px */
 @media (max-width: 576px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   .world-map {
     font-size: 13px;
   }
