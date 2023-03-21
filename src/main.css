@@ -30,7 +30,7 @@ html {
 
 body {
   background-color: var(--color-branding-primary);
-  background: url(../medcom_indotravel_danautoba/assets/img_content/section_geo/bg.png);
+  background: url(../assets/img_intro/kayu.webp);
   background-size: cover;
   object-fit: cover;
 }
