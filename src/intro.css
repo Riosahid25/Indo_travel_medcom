@@ -99,6 +99,11 @@ body {
   .layout .maps {
     width: 100%;
   }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
 
 /* BS tablet medium min-w 768px */
