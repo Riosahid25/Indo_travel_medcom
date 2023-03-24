@@ -19,6 +19,12 @@
     <title>Pilihan Destinasi</title>
   </head>
   <body>
+    <!-- preloader star -->
+    <div class="preloder" id="page-preloader">
+      <div class="circle"></div>
+    </div>
+    <!-- preloader end -->
+
     <!-- section intro star -->
     <section class="intro container-fluid my-5">
       <div class="title py-2">
@@ -35,6 +41,11 @@
           Dalam perjalanannya, Kementerian Pariwisata berubah menjadi Kementerian Pariwisata dan Ekonomi Kreatif/Badan Pariwisata dan Ekonomi Kreatif (Kemenparekraf/Baparekraf). Kemenparekraf kemudian fokus mengembangkan 5 Destinasi Super
           Prioritas di Indonesia, yaitu Borobudur, Likupang, Mandalika, Danau Toba, dan Labuan Bajo.
         </p> -->
+      </div>
+      <div class="text-title text-center">
+        <!-- <img src="./medcom_indotravel_danautoba/assets/img_content/section_geo/destinasi.png" data-aos="zoom-in" data-aos-duration="1000" alt="" />
+        <img src="./medcom_indotravel_danautoba/assets/img_content/section_geo/prioritas.png" data-aos="zoom-in" data-aos-duration="2500" alt="" /> -->
+        <p data-aos="zoom-in-up" data-aos-duration="1500">5 Destinasi Super Prioritas</p>
       </div>
       <div class="cloud cloud1">
         <div class="light"></div>
@@ -120,15 +131,15 @@
         </div>
       </div>
 
-      <div class="text-title text-center">
-        <!-- <img src="./medcom_indotravel_danautoba/assets/img_content/section_geo/destinasi.png" data-aos="zoom-in" data-aos-duration="1000" alt="" />
-        <img src="./medcom_indotravel_danautoba/assets/img_content/section_geo/prioritas.png" data-aos="zoom-in" data-aos-duration="2500" alt="" /> -->
-        <p data-aos="zoom-in-up" data-aos-duration="1500">5 Destinasi Super Prioritas</p>
-      </div>
+      <a href="#carddestination" class="page-scroll">
+        <div class="mouse">
+          <div class="scroll"></div>
+        </div>
+      </a>
     </section>
 
     <!-- section card destinasi star -->
-    <section class="carddestination">
+    <section class="carddestination" id="carddestination">
       `
       <div class="row">
         <div class="col-md-12">
@@ -148,7 +159,7 @@
               <img src="./medcom_indotravel_danautoba/assets/img_content/section hotelpilihan/borobudur_hotelpilihan.jpeg" class="card-img" alt="..." />
               <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
                 <h5 class="card-title">CANDI BOROBUDUR</h5>
-                <p class="card-text">Magelang, Jawa Tengah</p>
+                <!-- <p class="card-text">Magelang, Jawa Tengah</p> -->
                 <a href="./medcom_indotravel_borobudur/borobudur.html" class="btn btn-outline-success">Lihat</a>
               </div>
             </div>
@@ -158,7 +169,7 @@
               <img src="./medcom_indotravel_danautoba/assets/img_content/section destinasi/mandalika.jpg" class="card-img" alt="..." />
               <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
                 <h5 class="card-title">MANDALIKA</h5>
-                <p class="card-text">Lombok Tengah, Nusa Tenggara Barat</p>
+                <!-- <p class="card-text">Lombok Tengah, Nusa Tenggara Barat</p> -->
                 <a href="./medcom_indotravel_mandalika/mandalika.html" class="btn btn-outline-success">Lihat</a>
               </div>
             </div>
@@ -168,7 +179,7 @@
               <img src="./medcom_indotravel_danautoba/assets/img_content/section destinasi/labuan-bajo.jpg" class="card-img" alt="..." />
               <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
                 <h5 class="card-title">LABUAN BAJO</h5>
-                <p class="card-text">Manggarai Barat, Nusa Tenggara Timur</p>
+                <!-- <p class="card-text">Manggarai Barat, Nusa Tenggara Timur</p> -->
                 <a href="./medcom_indotravel_labuanbajo/labuanbajo.html" class="btn btn-outline-success">Lihat</a>
               </div>
             </div>
@@ -178,7 +189,7 @@
               <img src="./medcom_indotravel_danautoba/assets/img_content/section destinasi/likupang.jpg" class="card-img" alt="..." />
               <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card-text-overlay">
                 <h5 class="card-title">LIKUPANG</h5>
-                <p class="card-text">Minahasa Utara, Likupang</p>
+                <!-- <p class="card-text">Minahasa Utara, Likupang</p> -->
                 <a href="./medcom_indotravel_likupang/likupang.html" class="btn btn-outline-success">Lihat</a>
               </div>
             </div>
@@ -206,7 +217,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
 
-    <script>
+    <!-- <script>
       // let open = document.getElementById("tooltip");
       // let open2 = document.getElementById("tooltip2");
 
@@ -224,34 +235,43 @@
       //   open2.classList.remove("buka_tooltip2");
       // }
 
-      var blur = document.getElementById("tooltip");
-      blur.classList.toggle("active");
+      // var blur = document.getElementById("tooltip");
+      // blur.classList.toggle("active");
 
-      function toggle() {
-        var tooltip1 = document.getElementById("tooltip_1");
-        tooltip1.classList.toggle("active");
-      }
+      // function toggle() {
+      //   var tooltip1 = document.getElementById("tooltip_1");
+      //   tooltip1.classList.toggle("active");
+      // }
 
-      function toggle2() {
-        var tooltip2 = document.getElementById("tooltip_2");
-        tooltip2.classList.toggle("active");
-      }
-      function toggle3() {
-        var tooltip3 = document.getElementById("tooltip_3");
-        tooltip3.classList.toggle("active");
-      }
-      function toggle4() {
-        var tooltip4 = document.getElementById("tooltip_4");
-        tooltip4.classList.toggle("active");
-      }
-      function toggle5() {
-        var tooltip5 = document.getElementById("tooltip_5");
-        tooltip5.classList.toggle("active");
-      }
-    </script>
+      // function toggle2() {
+      //   var tooltip2 = document.getElementById("tooltip_2");
+      //   tooltip2.classList.toggle("active");
+      // }
+      // function toggle3() {
+      //   var tooltip3 = document.getElementById("tooltip_3");
+      //   tooltip3.classList.toggle("active");
+      // }
+      // function toggle4() {
+      //   var tooltip4 = document.getElementById("tooltip_4");
+      //   tooltip4.classList.toggle("active");
+      // }
+      // function toggle5() {
+      //   var tooltip5 = document.getElementById("tooltip_5");
+      //   tooltip5.classList.toggle("active");
+      // }
+    </script> -->
 
     <script>
       AOS.init();
     </script>
+
+    <!-- preloader js -->
+    <script src="./src/js/preloader.js"></script>
+
+    <!-- file libraries jquery easing when page on scroll -->
+    <script src="./medcom_indotravel_danautoba/src/js/jquery.easing.1.3.js"></script>
+
+    <!-- scroll js -->
+    <script src="./medcom_indotravel_danautoba/src/js/main.js"></script>
   </body>
 </html>

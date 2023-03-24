@@ -23,9 +23,8 @@
 }
 
 /* breakpoint ==========================================*/
-
-html {
-  overflow-x: hidden;
+a.page-scroll {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -55,7 +54,7 @@ body {
 
 .world-map img {
   width: 100%;
-  height: auto;
+  height: 400px;
   background-size: cover;
   box-shadow: 0 20px 8px rgba(0, 0, 0, 0.2);
 }
@@ -224,7 +223,7 @@ body {
 
 .cloud {
   position: absolute;
-  top: 0px;
+  top: 40px;
   /* right: 500px; */
   opacity: 0.8;
   animation: cloud 10s linear reverse infinite 0s;
@@ -252,7 +251,7 @@ body {
 
 .text-title p {
   font-family: var(--font-title-primary);
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 600;
   text-shadow: 0 12px 8px rgba(0, 0, 0, 0.3);
 }
@@ -261,6 +260,7 @@ body {
 
 .carddestination {
   overflow-x: hidden;
+  padding-top: 150px;
 }
 
 .carddestination .card1 img {
@@ -308,6 +308,142 @@ body {
 }
 
 /* section card destination end */
+
+/* loader star */
+.preloder {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: black;
+  height: 100%;
+  width: 100%;
+  transition: 1s all easy;
+  opacity: 1;
+  visibility: visible;
+  z-index: 9999;
+}
+
+.done {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.circle,
+.circle:before,
+.circle:after {
+  border: 3px solid transparent;
+  /*   border: 3px solid greeen; */
+  border-radius: 50%;
+}
+
+.circle {
+  height: 110px;
+  width: 110px;
+  margin: 200px auto;
+  position: relative;
+  border-top-color: gold;
+  animation-name: spin;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.circle:before,
+.circle:after {
+  content: "";
+  position: absolute;
+}
+
+.circle:before {
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  border-top-color: red;
+  animation-name: spin;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-duration: 2.1s;
+}
+
+.circle:after {
+  top: 23px;
+  left: 23px;
+  bottom: 23px;
+  right: 23px;
+  border-top-color: indigo;
+  animation-name: spin;
+  animation-delay: 1.3s;
+  animation-duration: 3.1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* untuk loader end */
+
+/* mouse scroll down star */
+.mouse {
+  width: 50px;
+  height: 70px;
+  border: 5px solid #fff;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 60%;
+  border-top-right-radius: 40%;
+  border-bottom-right-radius: 60%;
+  position: absolute;
+  top: 590px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  box-shadow: 0 15px 50px 10px rgba(0, 0, 0, 0.3);
+}
+
+.scroll {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.scroll:before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 20px;
+  background: #fff;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  transform-origin: bottom;
+  animation: for-before 3s infinite;
+  transition: all 0.3s ease;
+}
+
+@keyframes for-before {
+  0% {
+    height: 0px;
+  }
+  60% {
+    height: 20px;
+  }
+  60% {
+    transform: scaleY(1) translateX(-50%);
+  }
+  100% {
+    transform: scaleY(0) translateX(-50%);
+  }
+}
+
+/* mouse scroll down end */
 
 /* bS5 mobile extra small < 576px */
 @media (max-width: 576px) {
@@ -374,6 +510,10 @@ body {
     font-size: 12px;
   }
 
+  .cloud {
+    top: 120px;
+  }
+
   .cloud img {
     width: 130px;
   }
@@ -394,21 +534,58 @@ body {
     width: 100%;
     height: auto;
   }
+
+  .intro .mouse {
+    width: 40px;
+    height: 50px;
+    top: 350px;
+    border: 3px solid #fff;
+  }
+
+  .carddestination .card,
+  .carddestination .card img {
+    height: 200px;
+  }
 }
 /* bS5 tablet small < 576px */
 @media (min-width: 576px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .world-map img {
+    height: auto;
+  }
+
+  .intro .mouse {
+    top: 430px;
+    width: 40px;
+    height: 55px;
+  }
 }
 
 /* BS tablet medium min-w 768px */
 @media (min-width: 768px) {
+  div.intro .mouse {
+    top: 530px;
+    width: 50px;
+    height: 70px;
+  }
 }
 /* BS laptop md lg min-w 768px */
 @media (min-width: 992px) {
+  .intro .mouse {
+    top: 600px;
+    width: 50px;
+    height: 70px;
+  }
+
+  .world-map img {
+    height: 400px;
+  }
 }
 
 /* BS5 Device Extra large min 1200px */
-@media (min-width: 1400px) {
-}
-
-@media (max-width: 2560px) {
-}
+/* @media (min-width: 1400px) {
+} */

@@ -35,6 +35,7 @@ body {
   object-fit: cover;
 }
 
+/* loader star */
 .preloder {
   position: fixed;
   top: 0;
@@ -114,12 +115,14 @@ body {
   }
 }
 
+/* untuk loader end */
+
 .layout .logo-air {
-  width: 250px;
+  width: 150px;
 }
 
 .layout .logo {
-  font-size: 28px;
+  font-size: 25px;
   font-family: var(--font-body-primary);
   font-weight: 600;
   color: var(--color-body-primary);
@@ -131,21 +134,22 @@ body {
 
 .layout .maps {
   width: 100vw;
-  height: auto;
+  height: 400px;
   box-shadow: 0 15px 8px rgba(0, 0, 0, 0.3);
 }
 
 .layout .text-style {
-  gap: 50px;
+  gap: 10px;
 }
 
 .layout .text-style img {
-  width: 490px;
-  margin-top: -45px;
+  width: 290px;
+  margin-top: -60px;
+  padding: 20px 0;
 }
 
 .layout .layout-text-button {
-  height: 450px;
+  height: 170px;
 }
 
 .layout-text-button .btn-lihat {
@@ -169,27 +173,34 @@ body {
   .layout .text-style img {
     width: 200px;
     margin-top: 10px;
+    padding: 0;
   }
 
   .layout .text-style {
-    gap: 1px;
+    gap: 1;
   }
 
   .layout .maps {
     width: 100%;
+    height: auto;
   }
 
-  html,
-  body {
-    overflow-x: hidden;
+  .layout .layout-text-button {
+    height: 263px;
   }
 }
 
 /* BS tablet medium min-w 768px */
 @media (min-width: 768px) {
+  .layout .maps {
+    height: 230px;
+  }
 }
 /* BS laptop md lg min-w 768px */
 @media (min-width: 992px) {
+  .layout .maps {
+    height: 400px;
+  }
 }
 
 /* BS5 Device Extra large min 1200px */
