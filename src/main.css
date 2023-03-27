@@ -557,9 +557,13 @@ body {
   }
 
   .scroll-down {
-    bottom: 200px;
+    bottom: 43%;
     width: 28px;
     height: 28px;
+  }
+
+  .carddestination {
+    padding-top: 6px;
   }
 }
 /* bS5 tablet small < 576px */
