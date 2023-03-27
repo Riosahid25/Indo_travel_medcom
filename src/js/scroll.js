@@ -1,6 +1,6 @@
 // For Scroll-animate star
 // event pada saay link di klik
-$(".scroll-down").on("click", function (e) {
+$(".scroll-panah").on("click", function (e) {
   // ambil isi atribut href-nya dulu
   var hrefnya2 = $(this).attr("href");
 
@@ -13,7 +13,7 @@ $(".scroll-down").on("click", function (e) {
       scrollTop: elementHref1.offset().top - 50,
     },
     1250,
-    "easeInOutExpo"
+    "easeInOutBounce"
   );
 
   // penghenti atribut href e agar tidak jalan
