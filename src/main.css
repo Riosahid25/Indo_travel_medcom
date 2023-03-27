@@ -557,7 +557,7 @@ body {
   }
 
   .scroll-down {
-    bottom: 550px;
+    top: 32%;
     width: 28px;
     height: 28px;
   }
