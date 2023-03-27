@@ -403,7 +403,7 @@ body {
 
 .scroll-down {
   position: absolute;
-  bottom: 30px;
+  bottom: 250px;
   left: 50%;
   margin-left: -16px;
   display: block;
@@ -557,7 +557,7 @@ body {
   }
 
   .scroll-down {
-    top: 32%;
+    bottom: -25px;
     width: 28px;
     height: 28px;
   }
@@ -580,11 +580,18 @@ body {
 
 /* BS tablet medium min-w 768px */
 @media (min-width: 768px) {
+  .scroll-down {
+    bottom: -50px;
+  }
 }
 /* BS laptop md lg min-w 768px */
 @media (min-width: 992px) {
   .world-map img {
     height: 400px;
+  }
+
+  .intro a.scroll-down {
+    bottom: -60px;
   }
 }
 
