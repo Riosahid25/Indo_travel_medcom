@@ -192,17 +192,20 @@ body {
 
 /* BS tablet medium min-w 768px */
 @media (min-width: 768px) {
-  .layout .maps {
-    height: 230px;
+  .layout .justify-content-center .maps {
+    height: 200px;
   }
 }
 /* BS laptop md lg min-w 768px */
 @media (min-width: 992px) {
-  .layout .maps {
-    height: 400px;
+  .layout .justify-content-center .maps {
+    height: calc(477px - 73px);
   }
 }
 
 /* BS5 Device Extra large min 1200px */
 @media (min-width: 1400px) {
+  .layout .justify-content-center .maps {
+    height: calc(540px - 10px);
+  }
 }
