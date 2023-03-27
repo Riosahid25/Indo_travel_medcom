@@ -13,7 +13,7 @@ $(".scroll-panah").on("click", function (e) {
       scrollTop: elementHref1.offset().top - 50,
     },
     1250,
-    "easeInOutBounce"
+    "easeInOutExpo"
   );
 
   // penghenti atribut href e agar tidak jalan
