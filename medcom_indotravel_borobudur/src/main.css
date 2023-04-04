@@ -402,7 +402,20 @@ body {
   padding: 50px 50px;
 }
 .kuliner_khas .text-kiri-kuliner {
-  padding: 50px 50px;
+  padding: 100px 50px;
+}
+
+.kuliner_khas .text-kanan-kuliner p:nth-child(1),
+.kuliner_khas .text-kiri-kuliner p:nth-child(1) {
+  font-size: 35px !important;
+  font-weight: 900;
+}
+
+.kuliner_khas .text-kanan-kuliner p:nth-child(2),
+.kuliner_khas .text-kiri-kuliner p:nth-child(2),
+.kuliner_khas .text-kanan-kuliner p:nth-child(3) {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /* for a section kuliner khas end */

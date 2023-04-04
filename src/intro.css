@@ -25,7 +25,7 @@
 
 /* main css file star */
 html {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -118,7 +118,7 @@ body {
 /* untuk loader end */
 
 .layout .logo-air {
-  width: 150px;
+  width: 280px;
 }
 
 .layout .logo {
@@ -134,22 +134,19 @@ body {
 
 .layout .maps {
   width: 100vw;
-  height: 400px;
+  height: auto;
   box-shadow: 0 15px 8px rgba(0, 0, 0, 0.3);
-}
-
-.layout .text-style {
-  gap: 10px;
+  margin-top: -100px;
 }
 
 .layout .text-style img {
   width: 290px;
-  margin-top: -60px;
+  margin-top: -80px;
   padding: 20px 0;
 }
 
 .layout .layout-text-button {
-  height: 170px;
+  /* height: 170px; */
 }
 
 .layout-text-button .btn-lihat {
@@ -177,35 +174,49 @@ body {
   }
 
   .layout .text-style {
-    gap: 1;
+    gap: none;
   }
 
   .layout .maps {
     width: 100%;
-    height: auto;
+    height: 250px;
+    object-fit: cover;
   }
 
   .layout .layout-text-button {
     height: 263px;
+  }
+
+  .layout .text-style img {
+    width: 280px;
+    margin-top: 10px;
+    padding: 20px 0;
+  }
+
+  .layout .maps {
+    margin-top: 0;
   }
 }
 
 /* BS tablet medium min-w 768px */
 @media (min-width: 768px) {
   .layout .justify-content-center .maps {
-    height: 200px;
+    height: auto;
   }
 }
 /* BS laptop md lg min-w 768px */
 @media (min-width: 992px) {
   .layout .justify-content-center .maps {
-    height: calc(477px - 73px);
+    height: auto;
+  }
+  .layout .text-style {
+    gap: 30px;
   }
 }
 
 /* BS5 Device Extra large min 1200px */
 @media (min-width: 1400px) {
   .layout .justify-content-center .maps {
-    height: calc(540px - 10px);
+    height: auto;
   }
 }
