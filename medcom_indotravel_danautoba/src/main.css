@@ -177,7 +177,11 @@
 #popup-geo9 .modal-header h5,
 #popup-geo10 .modal-header h5,
 #popup-geo11 .modal-header h5,
-#popup-geo12 .modal-header h5 {
+#popup-geo12 .modal-header h5,
+#popup-geo13 .modal-header h5,
+#popup-geo14 .modal-header h5,
+#popup-geo15 .modal-header h5,
+#popup-geo16 .modal-header h5 {
   font-family: var(--font-body-primary) !important;
   font-weight: 600;
   font-size: 22px;
@@ -192,7 +196,13 @@
 #popup-geo7 .modal-body p:nth-child(1),
 #popup-geo8 .modal-body p:nth-child(1),
 #popup-geo9 .modal-body p:nth-child(1),
-#popup-geo10 .modal-body p:nth-child(1) {
+#popup-geo10 .modal-body p:nth-child(1),
+#popup-geo11 .modal-body p:nth-child(1),
+#popup-geo12 .modal-body p:nth-child(1),
+#popup-geo13 .modal-body p:nth-child(1),
+#popup-geo14 .modal-body p:nth-child(1),
+#popup-geo15 .modal-body p:nth-child(1),
+#popup-geo16 .modal-body p:nth-child(1) {
   font-size: 20px;
 }
 

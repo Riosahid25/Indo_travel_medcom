@@ -145,9 +145,9 @@ body {
   padding: 20px 0;
 }
 
-.layout .layout-text-button {
-  /* height: 170px; */
-}
+/* .layout .layout-text-button {
+  height: 170px;
+} */
 
 .layout-text-button .btn-lihat {
   box-shadow: 0 15px 8px rgba(0, 0, 0, 0.3);
