@@ -27,6 +27,16 @@ body {
 }
 
 /* wrapping danautoba star */
+
+.navbar {
+  padding-top: 0;
+}
+
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .container-wrapping {
   position: relative;
   width: 100%;
@@ -110,7 +120,7 @@ body {
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 100px;
+  width: 56px;
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
@@ -355,8 +365,8 @@ body {
 }
 
 .kuliner_khas .wadahkulinerkiri {
-  width: 400px;
-  height: 500px;
+  width: 250px;
+  height: 310px;
   background-color: var(--color-fonttext-primary);
   border-radius: 8px;
   position: absolute;
@@ -364,8 +374,8 @@ body {
 }
 
 .kuliner_khas .wadahkulinerkanan {
-  width: 400px;
-  height: 500px;
+  width: 250px;
+  height: 310px;
   background-color: var(--color-fonttext-primary);
   border-radius: 8px;
   position: absolute;
@@ -374,11 +384,11 @@ body {
 }
 
 .kuliner_khas .row {
-  margin: 100px 0;
+  margin: 30px 0;
 }
 
 .kuliner_khas img {
-  width: 500px;
+  width: 300px;
   z-index: 2;
   box-shadow: 0 15px 8px rgba(0, 0, 0, 0.2);
 }
@@ -399,23 +409,27 @@ body {
 }
 
 .kuliner_khas .text-kanan-kuliner {
-  padding: 50px 50px;
+  padding: 50px 15px;
 }
 .kuliner_khas .text-kiri-kuliner {
-  padding: 100px 50px;
+  padding: 50px 15px;
 }
 
 .kuliner_khas .text-kanan-kuliner p:nth-child(1),
 .kuliner_khas .text-kiri-kuliner p:nth-child(1) {
-  font-size: 35px !important;
+  font-size: 25px !important;
   font-weight: 900;
 }
 
 .kuliner_khas .text-kanan-kuliner p:nth-child(2),
 .kuliner_khas .text-kiri-kuliner p:nth-child(2),
 .kuliner_khas .text-kanan-kuliner p:nth-child(3) {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
+}
+
+.kuliner_khas .h1 {
+  font-size: 50px;
 }
 
 /* for a section kuliner khas end */
@@ -677,11 +691,11 @@ body {
   } */
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 50px;
+    font-size: 37px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -715,7 +729,7 @@ body {
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 60px;
+    font-size: 44px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
@@ -724,6 +738,6 @@ body {
 
   .hero .hero-text .btnvideo a {
     font-size: 20px;
-    width: 150px;
+    width: 70px;
   }
 }

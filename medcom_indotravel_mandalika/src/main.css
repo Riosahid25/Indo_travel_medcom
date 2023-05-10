@@ -22,6 +22,16 @@
 }
 
 /* wrapping danautoba star */
+
+.navbar {
+  padding-top: 0;
+}
+
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .container-wrapping {
   position: relative;
   width: 100%;

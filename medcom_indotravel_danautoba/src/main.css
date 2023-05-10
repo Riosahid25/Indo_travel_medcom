@@ -37,6 +37,16 @@
 } */
 
 /* logo */
+
+.navbar {
+  padding-top: 0;
+}
+
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .navbarToba .logo img {
   width: 70%;
 }

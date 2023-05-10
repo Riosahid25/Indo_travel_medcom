@@ -30,7 +30,7 @@
 
 .titleTahukah {
   font-family: var(--font-title-primary);
-  font-size: 63px;
+  font-size: 50px;
   text-align: center;
   color: var(--color-fonttext-primary) !important;
 }
@@ -43,6 +43,11 @@
 
 .card-body {
   color: white;
+}
+
+.tahukah-kamu .row > * {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .icon_tahukah {
