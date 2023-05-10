@@ -97,7 +97,7 @@
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 80px;
+  width: 60px;
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
@@ -327,6 +327,11 @@
 .kuliner .card .card-img-1 {
   height: 100%;
 }
+
+.kuliner .row > *{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 /* kuliner end */
 
 /* akomodasi */
@@ -406,6 +411,11 @@
 
 .akomodasi .card .btn:hover {
   background-color: #2974ba;
+}
+
+.akomodasi .row > * {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /* akomodasi end*/
 
@@ -502,6 +512,11 @@
 /* footer section star */
 .footer .creator p:nth-child(1) {
   font-weight: 700;
+}
+
+.col-lg-2.text-lg-end.text-md-start.creator.aos-init.aos-animate {
+  margin: 0 auto;
+  text-align: center;
 }
 /* footer section end */
 
@@ -655,7 +670,7 @@
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
