@@ -474,6 +474,11 @@ body {
   transform: translateY(0);
   opacity: 1;
 }
+
+.carddestination .card-text {
+  text-align: center;
+}
+
 /* section card destination end */
 
 /* footer section star */
