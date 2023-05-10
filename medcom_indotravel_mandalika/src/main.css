@@ -325,12 +325,23 @@
 }
 
 .kuliner .card .card-img-1 {
-  height: 100%;
+  height: auto;
+  width: 50%;
 }
 
 .kuliner .row > *{
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.card .mb-3 {
+  align-items: center;
+}
+
+.card-img-2,
+.card-img-3 {
+  width: 100%;
+  height: auto;
 }
 /* kuliner end */
 
@@ -694,11 +705,11 @@
   }
 
   .hero.wrapping .hero-text {
-    transform: translateY(170%);
+    transform: translateY(100%);
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
