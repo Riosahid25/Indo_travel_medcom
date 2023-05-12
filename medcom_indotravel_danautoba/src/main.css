@@ -86,7 +86,7 @@
 
 .hero.wrapping video {
   width: 100%;
-  margin: 60px 0 0;
+  margin: 31px 0 0;
 }
 
 .hero.wrapping {
@@ -117,7 +117,7 @@
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 80px;
+  width: 60px;
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
@@ -126,7 +126,7 @@
 }
 
 .btnvideo .bi {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .hero .hero-text .btnvideo a:hover {
@@ -859,7 +859,7 @@
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 43px;
+    font-size: 30px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
@@ -885,11 +885,11 @@
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
@@ -909,19 +909,19 @@
   }
 
   .hero.wrapping .hero-text {
-    transform: translateY(170%);
+    transform: translateY(100%);
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 60px;
+    font-size: 42px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .hero .hero-text .btnvideo a {
     font-size: 20px;
-    width: 150px;
+    width: 66px;
   }
 }
