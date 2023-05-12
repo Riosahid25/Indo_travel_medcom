@@ -329,7 +329,7 @@
   width: 50%;
 }
 
-.kuliner .row > *{
+.kuliner .row > * {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -489,7 +489,7 @@
   object-fit: cover;
 }
 .carddestination .card .btn {
-  width: 40%;
+  width: 50%;
 }
 
 .carddestination .card .card-img-overlay {
@@ -517,6 +517,26 @@
 .carddestination .card-text-overlay:hover a {
   transform: translateY(0);
   opacity: 1;
+}
+
+.carddestination .card-title {
+  font-size: 28px;
+}
+
+.carddestination .card-text {
+  font-size: 16px;
+}
+
+.carddestination .card-group .card-title {
+  font-size: 18px;
+}
+
+.carddestination .card-group .card-text {
+  font-size: 14px;
+}
+
+.carddestination .card {
+  height: 250px;
 }
 /* section card destination end */
 
