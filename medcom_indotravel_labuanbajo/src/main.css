@@ -118,7 +118,7 @@ body {
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 80px;
+  width: 60px;
   background-color: var(--color-background);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
@@ -278,8 +278,8 @@ body {
 }
 
 .kuliner_khas .wadahkulinerkiri {
-  width: 400px;
-  height: 500px;
+  width: 250px;
+  height: 310px;
   background-color: var(--color-kuliner-primary);
   border-radius: 8px;
   position: absolute;
@@ -288,7 +288,7 @@ body {
 
 .kuliner_khas .wadahkulinerkanan {
   width: 400px;
-  height: 500px;
+  height: 310px;
   background-color: var(--color-body-primary);
   border-radius: 8px;
   position: absolute;
@@ -301,7 +301,7 @@ body {
 }
 
 .kuliner_khas img {
-  width: 500px;
+  width: 300px;
 }
 
 .kuliner_khas p:nth-child(1) {
@@ -377,6 +377,17 @@ body {
   transform: translateY(0);
   opacity: 1;
 }
+
+.card-group .card {
+  height: 250px;
+  text-align: center;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
 /* section card destination end */
 
 /* section for akomodasi star */
@@ -600,8 +611,8 @@ body {
   } */
 
   .howtget .sewamobil iframe {
-    width: 280px;
-    height: 280px;
+    width: 600px;
+    height: 600px;
   }
 
   .kuliner_khas .wadahkulinerkiri {
@@ -627,7 +638,7 @@ body {
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 43px;
+    font-size: 37px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
@@ -653,11 +664,11 @@ body {
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
 
@@ -681,11 +692,11 @@ body {
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 60px;
+    font-size: 43px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .hero .hero-text .btnvideo a {

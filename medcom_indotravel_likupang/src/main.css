@@ -26,7 +26,7 @@
 }
 
 body {
-  /* background-color: var(--color-branding-primary); */
+  background-color: var(--color-branding-primary);
 }
 
 /* wrapping danautoba star */
@@ -107,7 +107,7 @@ body {
 
 .hero .hero-text .btnvideo a {
   font-size: 14px;
-  width: 80px;
+  width: 60px;
   background-color: var(--color-branding-primary);
   color: var(--color-body-primary);
   border-radius: 10px 0 0 10px;
@@ -304,6 +304,14 @@ body {
   opacity: 1;
 }
 
+.card-group .card {
+  height: 250px;
+}
+
+.card-group {
+  text-align: center;
+}
+
 /* section card destination end */
 
 /* section for akomodasi star */
@@ -355,6 +363,15 @@ body {
   background-size: cover;
   /* background-position: 0 -80px; */
 }
+
+img.menu-1.aos-init.aos-animate {
+  width: 45%;
+}
+
+.howtget .row > * {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 /* section kuliner lezat end */
 
 /* footer section star */
@@ -395,7 +412,7 @@ body {
 
   .hero.wrapping .hero-text .btnvideo a {
     font-size: 10px;
-    /* width: 80px; */
+    width: 30px;
   }
 
   .btnvideo .bi {
@@ -580,6 +597,7 @@ body {
   .kulinerL .img_kulinerL img.menu-2 {
     width: 200px;
   }
+  
 }
 
 /* BS tablet medium min-w 768px */
@@ -589,7 +607,7 @@ body {
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 43px;
+    font-size: 40px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
@@ -615,7 +633,7 @@ body {
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 50px;
+    font-size: 34px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
@@ -655,7 +673,7 @@ body {
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 60px;
+    font-size: 46px;
   }
 
   .hero.wrapping .hero-text .hMetatext {
@@ -664,7 +682,7 @@ body {
 
   .hero .hero-text .btnvideo a {
     font-size: 20px;
-    width: 150px;
+    width: 100px;
   }
 
   .akomodasi .card-body p:nth-child(1) {
