@@ -36,10 +36,12 @@
   display: none;
 } */
 
-.container .img-ads {
-  overflow: hidden;
-  background-image: url(../assets/img_logo/);
+.img-ads {
+  position: fixed;
+  top: 100px;
 }
+
+/* Sticky our navbar on window scroll */
 
 /* logo */
 
