@@ -9,7 +9,7 @@
 :root {
   /* root untuk font family */
   --font-title-primary: "Pacifico", cursive;
-  --font-body-primary: "Poppins", sans-serif;
+  --font-body-primary: "Poppins", sans-ser if;
   --font-body-secondary: "Poppins", sans-serif;
 
   /* Color Pallet */
@@ -35,6 +35,11 @@
 /* .navbarToba {
   display: none;
 } */
+
+.container .img-ads {
+  overflow: hidden;
+  background-image: url();
+}
 
 /* logo */
 
@@ -78,6 +83,10 @@
 
 .navbarToba ul li {
   font-size: 12px;
+}
+
+.navbar-brand {
+  margin-right: 0;
 }
 
 /* navbar end */
@@ -366,19 +375,19 @@
 
 /* kehebatan danau toba star */
 .KehebatanDtoba img {
-  width: 100px;
+  width: 60px;
 }
 
 .KehebatanDtoba p:nth-child(2) {
   font-family: var(--font-body-secondary);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   color: var(--color-branding-primary);
 }
 
 .KehebatanDtoba p:nth-child(3) {
   font-family: var(--font-body-secondary);
-  font-size: 18px;
+  font-size: 16px;
   color: var(--color-bodytext-primary);
 }
 /* kehebatan danau toba end */
@@ -704,7 +713,7 @@
     top: 65% !important;
     left: 0%;
     right: 0%;
-    transform: translateY(-50%);
+    transform: translateY(-70%);
     text-align: center;
     bottom: initial;
   }
@@ -718,7 +727,7 @@
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 12px;
+    font-size: 21px;
     /* margin: 0 10px; */
     width: 100%;
   }
@@ -877,6 +886,10 @@
   .footer p {
     font-size: 14px;
   }
+
+  .container {
+    max-width: 100%;
+  }
 }
 /* BS laptop md lg min-w 768px */
 @media (min-width: 992px) {
@@ -898,6 +911,10 @@
 
   .hero.wrapping .hero-text .hMetatext {
     font-size: 14px;
+  }
+
+  .container {
+    max-width: 960px;
   }
 }
 
@@ -931,5 +948,9 @@
   .hero .hero-text .btnvideo a {
     font-size: 20px;
     width: 66px;
+  }
+
+  .container {
+    max-width: 1320px;
   }
 }

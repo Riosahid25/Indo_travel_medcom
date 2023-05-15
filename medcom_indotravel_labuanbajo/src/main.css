@@ -25,9 +25,6 @@
 }
 
 /* wrapping danautoba star */
-body {
-  background: url(../assets/img_content/background/color_bg.png);
-}
 
 .navbar {
   padding-top: 0;
@@ -42,6 +39,7 @@ body {
   position: relative;
   width: 100%;
   overflow: hidden;
+  background: url(../assets/img_content/background/color_bg.png);
 }
 /* wrapping end */
 
@@ -79,6 +77,10 @@ body {
 
 .btnvisit img {
   width: 50px;
+}
+
+.navbar-brand {
+  margin-right: 0;
 }
 
 /* navbar end */
@@ -320,10 +322,10 @@ body {
 }
 
 .kuliner_khas .text-kanan-kuliner {
-  padding: 0 50px;
+  padding: 0 13px;
 }
 .kuliner_khas .text-kiri-kuliner {
-  padding: 0 50px;
+  padding: 0 13px;
 }
 
 /* for a section kuliner khas end */
@@ -380,11 +382,11 @@ body {
 
 .card-group .card {
   height: 250px;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.card-title,
-.card-text {
+.carddestination .card-title,
+.carddestination .card-text {
   text-align: center;
 }
 
@@ -465,7 +467,7 @@ body {
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 12px;
+    font-size: 21px;
     /* margin: 0 10px; */
     width: 100%;
   }
@@ -648,6 +650,10 @@ body {
   .footer p {
     font-size: 14px;
   }
+
+  .container {
+    max-width: 100%;
+  }
 }
 /* BS laptop md lg min-w 768px */
 @media (min-width: 992px) {
@@ -670,6 +676,10 @@ body {
   .hero.wrapping .hero-text .hMetatext {
     font-size: 13px;
   }
+
+  .container {
+    max-width: 960px;
+  }
 }
 
 /* BS5 Device Extra large min 1200px */
@@ -688,7 +698,7 @@ body {
   }
 
   .hero.wrapping .hero-text {
-    transform: translateY(170%);
+    transform: translateY(100%);
   }
 
   .hero.wrapping .hero-text .hTittletext {
@@ -701,6 +711,10 @@ body {
 
   .hero .hero-text .btnvideo a {
     font-size: 20px;
-    width: 150px;
+    width: 70px;
+  }
+
+  .container {
+    max-width: 1320px;
   }
 }
