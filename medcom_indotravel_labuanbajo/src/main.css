@@ -41,6 +41,11 @@
   overflow: hidden;
   background: url(../assets/img_content/background/color_bg.png);
 }
+
+.img-ads {
+  position: fixed;
+  top: 100px;
+}
 /* wrapping end */
 
 /* navbar star */
@@ -285,16 +290,16 @@
   background-color: var(--color-kuliner-primary);
   border-radius: 8px;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
 }
 
 .kuliner_khas .wadahkulinerkanan {
   width: 400px;
   height: 310px;
-  background-color: var(--color-body-primary);
+  background-color: var(--color-kuliner-primary);
   border-radius: 8px;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   margin-left: 100px;
 }
 
@@ -682,6 +687,12 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .img-ads {
+    display: none;
+  }
+}
+
 /* BS5 Device Extra large min 1200px */
 @media (min-width: 1400px) {
   .navbarToba ul li {
@@ -716,5 +727,11 @@
 
   .container {
     max-width: 1320px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .img-ads img {
+    width: 150px;
   }
 }

@@ -42,6 +42,11 @@
   overflow: hidden;
   background-color: var(--color-branding-primary);
 }
+
+.img-ads {
+  position: fixed;
+  top: 100px;
+}
 /* wrapping end */
 
 /* navbar star */
@@ -401,7 +406,7 @@ img.menu-1.aos-init.aos-animate {
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 12px;
+    font-size: 21px;
     /* margin: 0 10px; */
     width: 100%;
   }
@@ -661,6 +666,12 @@ img.menu-1.aos-init.aos-animate {
   }
 }
 
+@media (max-width: 1000px) {
+  .img-ads {
+    display: none;
+  }
+}
+
 /* BS5 Device Extra large min 1200px */
 @media (min-width: 1400px) {
   .navbarToba ul li {
@@ -717,5 +728,11 @@ img.menu-1.aos-init.aos-animate {
 @media (max-width: 1400px) {
   .kulinerL .img_kulinerL img.menu-2 {
     width: 280px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .img-ads img {
+    width: 150px;
   }
 }

@@ -37,6 +37,11 @@
   width: 100%;
   overflow: hidden;
 }
+
+.img-ads {
+  position: fixed;
+  top: 100px;
+}
 /* wrapping end */
 
 /* navbar star */
@@ -61,6 +66,12 @@
 .navbarToba ul li {
   font-size: 12px;
 }
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+/* navbar end */
 
 /* hero star */
 .hero.wrapping video {
@@ -578,7 +589,7 @@
   }
 
   .hero.wrapping .hero-text .hTittletext {
-    font-size: 12px;
+    font-size: 21px;
     /* margin: 0 10px; */
     /* width: 100px; */
   }
@@ -685,6 +696,10 @@
   .footer p {
     font-size: 14px;
   }
+
+  .container {
+    max-width: 100%;
+  }
 }
 /* BS laptop md lg min-w 768px */
 @media (min-width: 992px) {
@@ -706,6 +721,16 @@
 
   .hero.wrapping .hero-text .hMetatext {
     font-size: 18px;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img-ads {
+    display: none;
   }
 }
 
@@ -739,5 +764,15 @@
   .hero .hero-text .btnvideo a {
     font-size: 20px;
     width: 70px;
+  }
+
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .img-ads img {
+    width: 150px;
   }
 }

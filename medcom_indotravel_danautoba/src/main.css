@@ -340,7 +340,7 @@
 .geo-wrapping .tesegosite,
 .KehebatanDtoba .teskehebatanDtoba,
 .etamangan .text-center p:nth-child(2) {
-  font-size: 20px;
+  font-size: 16px;
   font-family: var(--font-body-primary);
   /* font-weight: 600; */
 }
@@ -395,9 +395,10 @@
 /* kehebatan danau toba end */
 
 /* how to get section star */
-.howtget p {
+.howtget p.h1 {
   font-family: var(--font-title-primary);
   color: var(--color-branding-primary);
+  font-size: 53px;
 }
 /* how to get section end */
 
