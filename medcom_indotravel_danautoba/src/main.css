@@ -928,6 +928,16 @@
   }
 }
 
+@media (max-width: 1390px) {
+  .geo-wrapping .card-title {
+    font-size: 16px;
+  }
+
+  .geo-wrapping .card-text {
+    font-size: 14px;
+  }
+}
+
 /* BS5 Device Extra large min 1200px */
 @media (min-width: 1400px) {
   .navbarToba ul li {
