@@ -145,11 +145,12 @@
 
 .about_simple {
   background: url(../../images/likupang-img-tentang-likupang.jpg) no-repeat;
-  object-fit: fill;
-  /* background-size: cover; */
-  background-position: 0 -560px;
+  /* object-fit: fill; */
+  background-size: cover;
+  background-position: 0 13px;
   margin-top: -2%;
   position: relative;
+  overflow: hidden;
 }
 
 .about_simple .text-white {
