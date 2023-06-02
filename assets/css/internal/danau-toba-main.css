@@ -1,0 +1,982 @@
+/* Font import from Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+/* File Root */
+:root {
+  /* root untuk font family */
+  --font-title-primary: "Pacifico", cursive;
+  --font-body-primary: "Poppins", sans-ser if;
+  --font-body-secondary: "Poppins", sans-serif;
+
+  /* Color Pallet */
+  --color-branding-primary: #5a7d8b;
+  --color-icon-primary: #5a5a59;
+  --color-icon-secondary: #b6b6b6;
+  --color-bodytext-primary: #3d3d3d;
+  --color-body-primary: #ffffff;
+  --color-button-primary: #0094f3;
+  --color-navbar-primary: #303030;
+  --color-btnmap-primary: #188038;
+}
+
+/* wrapping danautoba star */
+.container-wrapping {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+/* wrapping end */
+
+/* navbar star */
+/* .navbarToba {
+  display: none;
+} */
+
+.img-ads {
+  position: fixed;
+  top: 100px;
+}
+
+/* Sticky our navbar on window scroll */
+
+/* logo */
+
+.navbar {
+  padding-top: 0;
+}
+
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbarToba .logo img {
+  width: 70%;
+}
+
+.navbarToba .btnvisit {
+  /* outline: 1px solid var(--color-branding-primary); */
+  color: var(--color-body-primary);
+  transition: 0.5s;
+  font-size: 12px;
+}
+
+.btnvisit img {
+  width: 50px;
+}
+
+/* .navbarToba .btnvisit:hover {
+  background-color: var(--color-branding-primary);
+  color: var(--color-body-primary);
+} */
+
+.navbarToba .iconnav {
+  width: 18px;
+  height: 18px;
+}
+
+.navbarToba form a {
+  font-size: 11px;
+}
+
+.navbarToba ul li {
+  font-size: 12px;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+/* navbar end */
+
+/* hero star */
+
+.hero.wrapping video {
+  width: 100%;
+  margin: 31px 0 0;
+}
+
+.hero.wrapping {
+  position: relative;
+  width: 100%;
+}
+
+.hero.wrapping .hero-text {
+  position: absolute;
+  top: 0;
+  transform: translateY(100%);
+  z-index: 1;
+  width: 100%;
+}
+
+.hero.wrapping .hero-text .hTittletext {
+  font-family: var(--font-title-primary);
+  color: var(--color-body-primary);
+  text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.6);
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero.wrapping .hero-text .hMetatext {
+  color: var(--color-body-primary);
+  font-weight: 600;
+}
+
+.hero .hero-text .btnvideo a {
+  font-size: 14px;
+  width: 60px;
+  background-color: var(--color-branding-primary);
+  color: var(--color-body-primary);
+  border-radius: 10px 0 0 10px;
+  transition: 0.5s;
+  /* visibility: hidden; */
+}
+
+.btnvideo .bi {
+  font-size: 25px;
+}
+
+.hero .hero-text .btnvideo a:hover {
+  background: #4c6772;
+}
+
+.hero-text .iconhero {
+  visibility: hidden;
+}
+
+/* hero end */
+
+/* maps star */
+.mapsToba img {
+  width: 100%;
+  margin-top: -5px;
+  background-size: cover;
+}
+/* maps end */
+
+/* geosite star */
+
+/* js popup geo */
+.modal-content {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.fade {
+  transition: 0.5s;
+}
+
+.modal.show .modal-dialog {
+  max-width: 600px;
+}
+
+.modal-body img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-header .btn-close {
+  margin: -2.5rem -0.5rem -0.5rem auto;
+}
+
+.modal-title {
+  margin-right: 5px;
+}
+
+#popup-geo1 .modal-header h5,
+#popup-geo2 .modal-header h5,
+#popup-geo3 .modal-header h5,
+#popup-geo4 .modal-header h5,
+#popup-geo5 .modal-header h5,
+#popup-geo6 .modal-header h5,
+#popup-geo7 .modal-header h5,
+#popup-geo8 .modal-header h5,
+#popup-geo9 .modal-header h5,
+#popup-geo10 .modal-header h5,
+#popup-geo11 .modal-header h5,
+#popup-geo12 .modal-header h5,
+#popup-geo13 .modal-header h5,
+#popup-geo14 .modal-header h5,
+#popup-geo15 .modal-header h5,
+#popup-geo16 .modal-header h5 {
+  font-family: var(--font-body-primary) !important;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#popup-geo1 .modal-body p:nth-child(1),
+#popup-geo2 .modal-body p:nth-child(1),
+#popup-geo3 .modal-body p:nth-child(1),
+#popup-geo4 .modal-body p:nth-child(1),
+#popup-geo5 .modal-body p:nth-child(1),
+#popup-geo6 .modal-body p:nth-child(1),
+#popup-geo7 .modal-body p:nth-child(1),
+#popup-geo8 .modal-body p:nth-child(1),
+#popup-geo9 .modal-body p:nth-child(1),
+#popup-geo10 .modal-body p:nth-child(1),
+#popup-geo11 .modal-body p:nth-child(1),
+#popup-geo12 .modal-body p:nth-child(1),
+#popup-geo13 .modal-body p:nth-child(1),
+#popup-geo14 .modal-body p:nth-child(1),
+#popup-geo15 .modal-body p:nth-child(1),
+#popup-geo16 .modal-body p:nth-child(1) {
+  font-size: 20px;
+}
+
+/* .container-wrapping#blur {
+  transition: 0.5s;
+}
+
+.container-wrapping#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+#popup_geo1,
+#popup_geo2,
+#popup_geo3,
+#popup_geo4,
+#popup_geo5,
+#popup_geo6,
+#popup_geo7,
+#popup_geo8,
+#popup_geo9,
+#popup_geo10,
+#popup_geo11,
+#popup_geo12,
+#popup_geo13,
+#popup_geo14,
+#popup_geo15,
+#popup_geo16 {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 50px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  background-color: var(--color-body-primary);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  border-radius: 8px;
+}
+
+#popup_geo1 p:nth-child(1),
+#popup_geo2 p:nth-child(1),
+#popup_geo3 p:nth-child(1),
+#popup_geo4 p:nth-child(1),
+#popup_geo5 p:nth-child(1),
+#popup_geo6 p:nth-child(1),
+#popup_geo7 p:nth-child(1),
+#popup_geo8 p:nth-child(1),
+#popup_geo9 p:nth-child(1),
+#popup_geo10 p:nth-child(1),
+#popup_geo11 p:nth-child(1),
+#popup_geo12 p:nth-child(1),
+#popup_geo13 p:nth-child(1),
+#popup_geo14 p:nth-child(1),
+#popup_geo15 p:nth-child(1),
+#popup_geo16 p:nth-child(1) {
+  font-weight: 800;
+  font-family: var(--font-body-primary);
+}
+
+#popup_geo1 p:nth-child(2),
+#popup_geo2 p:nth-child(2),
+#popup_geo3 p:nth-child(2),
+#popup_geo4 p:nth-child(2),
+#popup_geo5 p:nth-child(2),
+#popup_geo6 p:nth-child(2),
+#popup_geo7 p:nth-child(2),
+#popup_geo8 p:nth-child(2),
+#popup_geo9 p:nth-child(2),
+#popup_geo10 p:nth-child(2),
+#popup_geo11 p:nth-child(2),
+#popup_geo12 p:nth-child(2),
+#popup_geo13 p:nth-child(2),
+#popup_geo14 p:nth-child(2),
+#popup_geo15 p:nth-child(2),
+#popup_geo16 p:nth-child(2) {
+  font-family: var(--font-body-primary);
+  line-height: 28px;
+}
+
+#popup_geo1.active,
+#popup_geo2.active,
+#popup_geo3.active,
+#popup_geo4.active,
+#popup_geo5.active,
+#popup_geo6.active,
+#popup_geo7.active,
+#popup_geo8.active,
+#popup_geo9.active,
+#popup_geo10.active,
+#popup_geo11.active,
+#popup_geo12.active,
+#popup_geo13.active,
+#popup_geo14.active,
+#popup_geo15.active,
+#popup_geo16.active {
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+} */
+
+.geo-wrapping .titlegeo,
+.KehebatanDtoba .titleKehebatandToba,
+.etamangan .text-center p:nth-child(1) {
+  font-family: var(--font-title-primary);
+  font-size: 53px;
+  color: var(--color-branding-primary);
+}
+
+.geo-wrapping .tesegosite,
+.KehebatanDtoba .teskehebatanDtoba,
+.etamangan .text-center p:nth-child(2) {
+  font-size: 16px;
+  font-family: var(--font-body-primary);
+  /* font-weight: 600; */
+}
+
+.geo-wrapping .card .card-img-overlay,
+.carddestination .card .card-img-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.geo-wrapping .card-img-overlay {
+  opacity: 0;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.geo-wrapping .card-img-overlay:hover {
+  opacity: 1;
+}
+
+.geo-wrapping .card-img-overlay h4,
+.geo-wrapping .card-img-overlay p {
+  transform: translateY(10px);
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.geo-wrapping .card-img-overlay:hover h4,
+.geo-wrapping .card-img-overlay:hover p {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* geosite end */
+
+/* kehebatan danau toba star */
+.KehebatanDtoba img {
+  width: 60px;
+}
+
+.KehebatanDtoba p:nth-child(2) {
+  font-family: var(--font-body-secondary);
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-branding-primary);
+}
+
+.KehebatanDtoba p:nth-child(3) {
+  font-family: var(--font-body-secondary);
+  font-size: 16px;
+  color: var(--color-bodytext-primary);
+}
+/* kehebatan danau toba end */
+
+/* how to get section star */
+.howtget p.h1 {
+  font-family: var(--font-title-primary);
+  color: var(--color-branding-primary);
+  font-size: 53px;
+}
+/* how to get section end */
+
+/* for the section tab menu detail maps star */
+.tabmenu {
+  /* width: 550px;
+  height: 102px; */
+  border-radius: 50px;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  background-color: #ffffff;
+  font-family: var(--font-body-secondary);
+}
+
+.tabmenu ul {
+  padding: 20px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--color-branding-primary);
+  border-radius: 20px;
+}
+
+.nav-pills button {
+  color: var(--color-bodytext-primary);
+}
+.nav-pills button:hover {
+  color: var(--color-branding-primary);
+}
+
+.howtget {
+  background-color: rgba(115, 151, 165, 0.2);
+}
+
+.howtget .rounded-circle {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-branding-primary);
+}
+
+.howtget .sewamobil .line-vertical,
+.howtget .sewabus .line-vertical {
+  width: 5px;
+  height: 100px;
+  background-color: var(--color-branding-primary);
+  margin: 0 7.2px;
+}
+
+.howtget .sewabus .bus.line-vertical {
+  height: 205px;
+}
+
+.howtget .sewamobil .text-start p:nth-child(2),
+.howtget .sewamobil .text-start p:nth-child(3),
+.howtget .sewabus .text-start p:nth-child(2),
+.howtget .sewabus .text-start p:nth-child(3),
+.howtget .sewabus .text-start p:nth-child(4),
+.howtget .opsilain p:nth-child(2),
+.howtget .opsilain p:nth-child(3) {
+  font-family: var(--font-body-secondary);
+  color: var(--color-bodytext-primary);
+}
+
+.howtget .sewamobil .text-start p:nth-child(1),
+.howtget .sewamobil .text-start p:nth-child(4),
+.howtget .sewabus .text-start p:nth-child(6),
+.howtget .sewabus .text-start p:nth-child(1),
+.howtget .sewabus .text-start p:nth-child(4),
+.howtget .sewabus .text-start p:nth-child(5),
+.howtget .opsilain p:nth-child(1) {
+  font-family: var(--font-body-secondary);
+  color: var(--color-bodytext-primary);
+  font-weight: 600;
+}
+
+.howtget .sewabus .text-start img {
+  width: 80px;
+}
+
+.howtget .sewabus .text-start a {
+  background-color: var(--color-branding-primary);
+  color: var(--color-body-primary);
+  transition: 0.5s;
+  font-size: 14px;
+}
+
+.howtget .sewabus .text-start a:hover {
+  background-color: #4e6e7b;
+}
+
+.howtget .text-center .airasia {
+  background: transparent !important;
+}
+
+.howtget .sewamobil .titlesewa,
+.howtget .sewabus .titlesewa {
+  font-weight: 700;
+  font-family: var(--font-body-secondary);
+  color: var(--color-branding-primary);
+  width: 25%;
+}
+
+.howtget .sewabus .text-start p:nth-child(6) {
+  padding-top: 25px;
+}
+
+.howtget .sewabus .text-start.bansising p:nth-child(5) {
+  padding-top: 48px;
+}
+
+.howtget .opsilain p:nth-child(3) a {
+  background-color: var(--color-btnmap-primary);
+  color: var(--color-body-primary);
+  border-radius: 30px;
+}
+/* for the section tab menu detail maps end */
+
+/* for a section eta mangan star */
+.etamangan {
+  position: relative;
+  padding: 0 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/images/danau-toba-etamangan_bg.png);
+  background-attachment: fixed;
+}
+
+.etamangan .text-center p:nth-child(1),
+.etamangan .text-center p:nth-child(2) {
+  color: var(--color-body-primary);
+}
+
+.etamangan .mie-gomak img,
+.etamangan .manuk-napinadar img,
+.etamangan .sambal-tuk img {
+  width: 400px;
+  height: 400px;
+}
+
+.etamangan .mie-gomak .text-etamangan,
+.etamangan .sambal-tuk .text-etamangan {
+  width: 600px;
+  /* height: 300px; */
+  padding: 20px;
+  gap: 10px;
+  /* box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04); */
+  z-index: 2;
+  /* margin-left: -50px; */
+  background-color: transparent;
+}
+
+.etamangan .mie-gomak .text-etamangan p:nth-child(1),
+.etamangan .manuk-napinadar .text-etamangan p:nth-child(1),
+.etamangan .sambal-tuk .text-etamangan p:nth-child(1) {
+  color: var(--color-body-primary);
+  font-weight: bold;
+  font-family: var(--font-body-primary);
+  font-size: 26px;
+}
+
+.etamangan .mie-gomak .text-etamangan p:nth-child(2),
+.etamangan .mie-gomak .text-etamangan p:nth-child(3),
+.etamangan .manuk-napinadar .text-etamangan p:nth-child(2),
+.etamangan .manuk-napinadar .text-etamangan p:nth-child(3),
+.etamangan .sambal-tuk .text-etamangan p:nth-child(2),
+.etamangan .sambal-tuk .text-etamangan p:nth-child(3) {
+  font-family: var(--font-body-primary);
+  font-size: 18px;
+  color: var(--color-body-primary);
+}
+
+.etamangan .manuk-napinadar .text-etamangan {
+  width: 600px;
+  /* height: 300px; */
+  padding: 20px;
+  gap: 10px;
+  /* box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04); */
+  z-index: 2;
+  /* margin-right: -80px; */
+  background-color: transparent;
+}
+
+.etamangan img {
+  box-shadow: 0 18px 8px rgba(0, 0, 0, 0.3);
+}
+/* for a section eta mangan end */
+
+/* section hotel pilihan star */
+.hotelpilihan .titlehotel p {
+  font-weight: 600;
+  font-family: var(--font-body-primary);
+  color: var(--color-bodytext-primary);
+}
+
+.hotelpilihan p span {
+  color: var(--color-branding-primary);
+}
+
+.hotelpilihan .metapilihanhotel {
+  font-family: var(--font-body-primary);
+}
+
+.hotelpilihan a {
+  border-radius: 18px;
+  font-size: 14px;
+  color: var(--color-body-primary);
+}
+
+.hotelpilihan ul li {
+  outline: 1px solid var(--color-branding-primary);
+  border-radius: 20px;
+}
+
+.hotelpilihan .card {
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  background-color: #ffffff;
+  font-family: var(--font-body-primary);
+  font-size: 14px;
+}
+
+.hotelpilihan .btn_traveloka .btn {
+  background-color: #5a7d8b;
+  color: var(--color-body-primary);
+  transition: 0.5s;
+}
+
+.hotelpilihan .btn_traveloka .btn:hover {
+  background-color: #435d68;
+}
+
+/* .hotelpilihan .list_harga {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.hotelpilihan .list_harga p:nth-child(1) {
+  font-weight: 600;
+  font-family: var(--font-body-primary);
+}
+
+.hotelpilihan .list_harga p:nth-child(2),
+.hotelpilihan .list_harga a {
+  font-family: var(--font-body-primary);
+} */
+
+/* section hotel pilihan end */
+
+/* section card destination star */
+.carddestination .card1 img {
+  height: 327px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.carddestination .card1 a {
+  width: 50%;
+  border: 1px solid white;
+  color: var(--color-body-primary);
+}
+
+.carddestination .card1 a:hover {
+  background-color: var(--color-body-primary);
+  color: var(--color-bodytext-primary);
+}
+
+.carddestination .card-text-overlay {
+  opacity: 0;
+  transition: 1s;
+}
+
+.carddestination .card-text-overlay:hover {
+  opacity: 1;
+}
+.carddestination .card-text-overlay h5,
+.carddestination .card-text-overlay p,
+.carddestination .card-text-overlay a {
+  transform: translateY(10px);
+  transition: 0.8s;
+  opacity: 0;
+}
+
+.carddestination .card-text-overlay:hover h5,
+.carddestination .card-text-overlay:hover p,
+.carddestination .card-text-overlay:hover a {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.carddestination {
+  text-align: center;
+}
+
+.card-group .card {
+  height: 250px;
+}
+
+/* section card destination end */
+
+/* footer section star */
+.footer .creator p:nth-child(1) {
+  font-weight: 700;
+}
+
+/* footer section end */
+
+/* breakpoint ==========================================*/
+
+/* bS5 mobile extra small < 576px */
+@media (max-width: 576px) {
+  .navbarToba .logo img {
+    display: block;
+  }
+
+  #banner-video {
+    column-gap: 2%;
+    top: 65% !important;
+    left: 0%;
+    right: 0%;
+    transform: translateY(-70%);
+    text-align: center;
+    bottom: initial;
+  }
+
+  .hero .hero-text .btnvideo a {
+    width: 100%;
+  }
+
+  .hero .hero-text .iconhero {
+    width: 20px;
+  }
+
+  .hero.wrapping .hero-text .hTittletext {
+    font-size: 21px;
+    /* margin: 0 10px; */
+    width: 100%;
+  }
+
+  .hero.wrapping .hero-text .hMetatext {
+    font-size: 50%;
+    width: 100%;
+  }
+
+  .hero.wrapping .hero-text .btnvideo a {
+    font-size: 10px;
+    /* width: 80px; */
+  }
+
+  .btnvideo .bi {
+    font-size: 10px;
+  }
+
+  .hero.wrapping .hero-text {
+    transform: translateY(100%);
+    margin-top: 20px;
+  }
+
+  .nav-pills button {
+    font-size: 16px;
+  }
+
+  .tabmenu ul {
+    padding: 10px;
+  }
+
+  #popup_geo1,
+  #popup_geo2,
+  #popup_geo3,
+  #popup_geo4,
+  #popup_geo5,
+  #popup_geo6,
+  #popup_geo7,
+  #popup_geo8,
+  #popup_geo9,
+  #popup_geo10,
+  #popup_geo11,
+  #popup_geo12,
+  #popup_geo13,
+  #popup_geo14,
+  #popup_geo15,
+  #popup_geo16 {
+    width: 95%;
+    margin: 20px 0;
+  }
+  .geo-wrapping .card-img-overlay p {
+    font-size: 12px;
+  }
+
+  .geo-wrapping .card-img-overlay h4 {
+    font-size: 14px;
+  }
+
+  .etamangan img {
+    width: 70% !important;
+    height: auto !important;
+  }
+
+  .etamangan .mie-gomak .text-etamangan p:nth-child(1),
+  .etamangan .manuk-napinadar .text-etamangan p:nth-child(1),
+  .etamangan .sambal-tuk .text-etamangan p:nth-child(1) {
+    font-size: 18px;
+  }
+
+  .etamangan .mie-gomak .text-etamangan p:nth-child(2),
+  .etamangan .mie-gomak .text-etamangan p:nth-child(3),
+  .etamangan .manuk-napinadar .text-etamangan p:nth-child(2),
+  .etamangan .manuk-napinadar .text-etamangan p:nth-child(3),
+  .etamangan .sambal-tuk .text-etamangan p:nth-child(2),
+  .etamangan .sambal-tuk .text-etamangan p:nth-child(3) {
+    font-size: 16px;
+    font-family: var(--font-body-primary);
+    color: var(--color-body-primary);
+  }
+
+  .etamangan .mie-gomak .text-etamangan,
+  .etamangan .sambal-tuk .text-etamangan {
+    padding: 20px;
+    /* margin-left: -330px; */
+    width: 100%;
+  }
+
+  /* .etamangan .manuk-napinadar .text-etamangan {
+    margin-right: -350px;
+  } */
+
+  .howtget .sewamobil .titlesewa,
+  .howtget .sewabus .titlesewa {
+    width: 50%;
+  }
+
+  .howtget .sewamobil iframe,
+  .howtget .sewabus iframe {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .howtget .sewamobil p {
+    word-wrap: break-word;
+  }
+
+  .hotelpilihan .list_harga :nth-child(1),
+  .hotelpilihan .list_harga p:nth-child(2) {
+    font-size: 10px;
+  }
+
+  .hotelpilihan .list_harga .img_pilihan {
+    width: 20px;
+  }
+
+  .hotelpilihan .list_harga .img_iconhotel {
+    width: 30px;
+  }
+
+  .hotelpilihan .list_harga a {
+    width: 100px;
+    /* font-size: 5px; */
+  }
+
+  .footer p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+/* bS5 tablet small < 576px */
+@media (min-width: 576px) {
+  .navbarToba .logo img {
+    display: block;
+  }
+
+  .modal-dialog {
+    max-width: 600px;
+  }
+}
+
+/* BS tablet medium min-w 768px */
+@media (min-width: 768px) {
+  .hero .hero-text .iconhero {
+    width: 40px;
+  }
+
+  .hero.wrapping .hero-text .hTittletext {
+    font-size: 30px;
+  }
+
+  .hero.wrapping .hero-text .hMetatext {
+    font-size: 12px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+}
+/* BS laptop md lg min-w 768px */
+
+@media (min-width: 992px) {
+  .navbarToba .logo img {
+    display: none;
+  }
+
+  .hero.wrapping .hero-text {
+    transform: translateY(100%);
+  }
+
+  .hero .hero-text .iconhero {
+    width: 50px;
+  }
+
+  .hero.wrapping .hero-text .hTittletext {
+    font-size: 30px;
+  }
+
+  .hero.wrapping .hero-text .hMetatext {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img-ads {
+    display: none;
+  }
+}
+
+@media (max-width: 1390px) {
+  .geo-wrapping .card-title {
+    font-size: 16px;
+  }
+
+  .geo-wrapping .card-text {
+    font-size: 14px;
+  }
+}
+
+/* BS5 Device Extra large min 1200px */
+@media (min-width: 1400px) {
+  .navbarToba ul li {
+    font-size: 18px;
+  }
+
+  .navbarToba .iconnav {
+    width: 25px;
+    height: 25px;
+  }
+
+  .navbarToba .btnvisit {
+    font-size: 16px;
+  }
+
+  .hero.wrapping .hero-text {
+    transform: translateY(100%);
+  }
+
+  .hero.wrapping .hero-text .hTittletext {
+    font-size: 42px;
+  }
+
+  .hero.wrapping .hero-text .hMetatext {
+    font-size: 18px;
+  }
+
+  .hero .hero-text .btnvideo a {
+    font-size: 20px;
+    width: 66px;
+  }
+
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .img-ads img {
+    width: 150px;
+  }
+}
