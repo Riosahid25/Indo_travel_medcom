@@ -144,7 +144,7 @@
 /* section about simple star  */
 
 .about_simple {
-  background: url(../../assets/images/likupang-img-tentang-likupang.jpg) no-repeat;
+  background: url(../../images/likupang-img-tentang-likupang.jpg) no-repeat;
   object-fit: fill;
   /* background-size: cover; */
   background-position: 0 -560px;
@@ -365,7 +365,7 @@
 }
 
 .kulinerL {
-  background: url(../../assets/images/likupang-bg-kulinerL.svg);
+  background: url(../../images/likupang-bg-kulinerL.svg);
   background-size: cover;
   /* background-position: 0 -80px; */
 }
