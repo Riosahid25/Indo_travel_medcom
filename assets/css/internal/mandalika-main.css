@@ -185,7 +185,7 @@
 /* how to get section star */
 
 .howtget {
-  background: url(././images/mandalika-bg-htgt.jpg);
+  background: url(../../images/mandalika-bg-htgt.jpg);
   background-size: cover;
 }
 
@@ -301,7 +301,7 @@
 
 /* kuliner */
 .kuliner {
-  background: url(././images/mandalika-bg-kuliner.png);
+  background: url(../../images/mandalika-bg-kuliner.png);
   background-size: cover;
 }
 
