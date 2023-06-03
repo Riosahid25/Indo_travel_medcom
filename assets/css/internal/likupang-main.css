@@ -144,7 +144,7 @@
 /* section about simple star  */
 
 .about_simple {
-  background: url(../../images/likupang-img-tentang-likupang.jpg) no-repeat;
+  background: url(././images/likupang-img-tentang-likupang.jpg) no-repeat;
   /* object-fit: fill; */
   background-size: cover;
   background-position: 0 13px;
@@ -184,7 +184,8 @@
   /* width: 500px; */
   /* height: 102px; */
   border-radius: 50px;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
   background-color: var(--color-tabmenu-primary);
   font-family: var(--font-body-primary);
 }
@@ -366,7 +367,7 @@
 }
 
 .kulinerL {
-  background: url(../../images/likupang-bg-kulinerL.svg);
+  background: url(././images/likupang-bg-kulinerL.svg);
   background-size: cover;
   /* background-position: 0 -80px; */
 }

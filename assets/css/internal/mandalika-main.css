@@ -185,7 +185,7 @@
 /* how to get section star */
 
 .howtget {
-  background: url(../../images/mandalika-bg-htgt.jpg);
+  background: url(././images/mandalika-bg-htgt.jpg);
   background-size: cover;
 }
 
@@ -204,7 +204,8 @@
   /* width: 550px;
   height: 102px; */
   border-radius: 50px;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
   background-color: #045888;
   font-family: var(--font-body-primary);
 }
@@ -300,7 +301,7 @@
 
 /* kuliner */
 .kuliner {
-  background: url(../../images/mandalika-bg-kuliner.png);
+  background: url(././images/mandalika-bg-kuliner.png);
   background-size: cover;
 }
 
@@ -469,13 +470,15 @@
   width: 550px;
   height: 50px;
   border-radius: 50px;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
   background-color: #ffffff;
   font-family: var(--font-body-primary);
 }
 
 .hotelpilihan .list_harga {
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
   background-color: #ffffff;
   padding: 20px;
   border-radius: 5px;
