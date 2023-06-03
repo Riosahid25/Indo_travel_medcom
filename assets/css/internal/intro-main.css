@@ -26,7 +26,7 @@
 
 body {
   background-color: var(--color-branding-primary);
-  background: url(././images/intro-bg-kayu.webp);
+  background: url(../../images/intro-bg-kayu.webp);
   background-size: cover;
   object-fit: cover;
 }
