@@ -23,7 +23,7 @@
 }
 
 .tahukah-kamu {
-  background: url(/assets/images/borobudur-img-tahukahkamubg.png);
+  background: url(../../images/borobudur-img-tahukahkamubg.png);
   background-size: contain;
   background-position-y: 30px;
 }
