@@ -341,7 +341,7 @@
   border-radius: 0;
 }
 .carddestination .card1 img {
-  height: 327px;
+  height: 100%;
   background-size: cover;
   object-fit: cover;
 }
