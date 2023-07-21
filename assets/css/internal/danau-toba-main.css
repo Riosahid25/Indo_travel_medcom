@@ -79,8 +79,8 @@
   height: 18px;
 }
 
-.navbarToba form a {
-  font-size: 11px;
+.navbarToba form a i {
+  font-size: 40px;
 }
 
 .navbarToba ul li {
@@ -225,6 +225,7 @@
 #popup-geo15 .modal-body p:nth-child(1),
 #popup-geo16 .modal-body p:nth-child(1) {
   font-size: 20px;
+  padding: 0 8px;
 }
 
 /* .container-wrapping#blur {
@@ -407,8 +408,7 @@
   /* width: 550px;
   height: 102px; */
   border-radius: 50px;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
-    0px 0px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   background-color: #ffffff;
   font-family: var(--font-body-secondary);
 }
@@ -520,12 +520,7 @@
 .etamangan {
   position: relative;
   padding: 0 10px;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),
-    url(../../images/danau-toba-etamangan_bg.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/danau-toba-etamangan_bg.png);
   background-attachment: fixed;
 }
 
@@ -616,8 +611,7 @@
 }
 
 .hotelpilihan .card {
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
-    0px 0px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   background-color: #ffffff;
   font-family: var(--font-body-primary);
   font-size: 14px;

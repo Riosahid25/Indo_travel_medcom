@@ -55,6 +55,13 @@
   width: 70%;
 }
 
+.navbarToba .btnvisit {
+  /* outline: 1px solid var(--color-body-primary); */
+  color: var(--color-body-primary);
+  transition: 0.5s;
+  font-size: 12px;
+}
+
 .btnvisit img {
   width: 50px;
 }
@@ -64,8 +71,8 @@
   height: 18px;
 }
 
-.navbarToba form a {
-  font-size: 11px;
+.navbarToba form a i {
+  font-size: 40px;
 }
 
 .navbarToba ul li {
@@ -184,8 +191,7 @@
   /* width: 500px; */
   /* height: 102px; */
   border-radius: 50px;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
-    0px 0px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   background-color: var(--color-tabmenu-primary);
   font-family: var(--font-body-primary);
 }
